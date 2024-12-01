@@ -10,8 +10,6 @@ import ScrollToTop from "./layouts/ScrollToTop.jsx";
 
 // todo:
 // achtergrond contact niet goed
-// make repeatable component for media (json?)
-// make page to show full media
 // maak agenda met lestijden en eventuele wokshops die gepland zijn
 // maak functionaliteit om voor workshop in te schrijven
 // add some security for bots in the form upload
