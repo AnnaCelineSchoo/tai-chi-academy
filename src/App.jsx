@@ -5,6 +5,7 @@ import TarievenPage from "./pages/TarievenPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import MediaPage from "./pages/MediaPage.jsx";
 import LessenPage from "./pages/LessenPage.jsx";
+import MediaItemPage from "./pages/MediaItemPage.jsx";
 
 // todo:
 // achtergrond contact niet goed
@@ -24,6 +25,7 @@ function App() {
           <Route path="/media" element={<MediaPage />} />
           <Route path="/tarieven" element={<TarievenPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/mediaItem/:id" element={<MediaItemPage />} />
         </Route>
       </Routes>
     </Router>

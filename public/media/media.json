@@ -1,34 +1,42 @@
 [
   {
     "id": 1,
-    "title": "National Tai Chi Championship 2023",
-    "date": "2023-09-15",
-    "description": "An annual event showcasing the best Tai Chi practitioners from across the country.",
-    "image": "national-championship.jpg",
-    "videoUrl": "https://www.youtube.com/embed/example1"
+    "title": "Nationaal Tai Chi Kampioenschap 2024 STN",
+    "date": "",
+    "description": "De beste Tai Chi-beoefenaars tonen hun vaardigheden in een nationaal toernooi.",
+    "image": "https://www.taijiquan.nl/wp-content/uploads/2018/12/terugblik-stn-festival-2018-stichting-taijiquan-nederland-15.jpg",
+    "videoUrl": "https://www.youtube.com/embed/aNHb7cWTpEc?si=AkP_zFe3D4KrY7un"
   },
   {
     "id": 2,
-    "title": "Tai Chi Workshop: Mastering the Basics",
-    "date": "2023-08-10",
-    "description": "A beginner-friendly workshop focused on foundational Tai Chi movements.",
-    "image": "workshop-basics.jpg",
-    "videoUrl": "https://www.youtube.com/embed/example2"
+    "title": "Chen Style Taijiquan Workshop: Long Pole 2023",
+    "date": "",
+    "description": "Een Chen Style Taijiquan workshop gericht op het kennismaken met “Long Pole”.",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fz9XdmcdSl80%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=acd9d262e1085e54d24b597586c14c4a5421f4f00e6bd3e0d9ac96fadcd769df&ipo=images",
+    "videoUrl": "https://www.youtube.com/embed/xONEu0-iqG8?si=84MzaWuBqMHncW_U"
   },
   {
     "id": 3,
-    "title": "Summer Tai Chi Retreat 2023",
+    "title": "National Tai Chi Championship 2022 STN",
     "date": "2023-07-20",
-    "description": "A week-long retreat with in-depth training and meditation in the mountains.",
-    "image": "summer-retreat.jpg",
-    "videoUrl": "https://www.youtube.com/embed/example3"
+    "description": "De beste Tai Chi-beoefenaars tonen hun vaardigheden in een nationaal toernooi.",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhACG6NtXXzg%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=355a89ca4bede255584202f76037ffd9b92af6016729176f3477be535a358101&ipo=images",
+    "videoUrl": "https://www.youtube.com/embed/KLQsIPPZVl4?si=Ox_e_ZNwVd5yapZh"
   },
   {
     "id": 4,
-    "title": "Spring Tai Chi Open Tournament",
-    "date": "2023-06-05",
-    "description": "An open tournament for all skill levels to celebrate Tai Chi practice.",
-    "image": "spring-tournament.jpg",
-    "videoUrl": "https://www.youtube.com/embed/example4"
+    "title": "Chen Style Taijiquan Workshop: taiji bal",
+    "date": "",
+    "description": "De Taiji Ball Workshop biedt een praktische ervaring in het gebruik van de Taiji-bal om balans, flexibiliteit en energie door Tai Chi-bewegingen te verbeteren.",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fv1erQBtz0wY%2Fhqdefault.jpg&f=1&nofb=1&ipt=55bdf9ad9707dd8641e38e63a9698c01eab893c7ad5d34f07e852b210a90bcf1&ipo=images",
+    "videoUrl": ""
+  },
+  {
+    "id": 4,
+    "title": "Yang Style Taijiquan Workshop: Traditional 108 vorm",
+    "date": "",
+    "description": "Meerdaagse workshop voor het aanleren van de traditionale yang 108 vorm",
+    "image": "https://i.ytimg.com/vi/AIl0Schf2J0/maxresdefault.jpg",
+    "videoUrl": ""
   }
 ]

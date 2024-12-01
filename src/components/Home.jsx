@@ -40,7 +40,7 @@ function Home() {
               </p>
 
               {/* <h2 class="text-white mb-4">Welcome to the Tai Chi Academy</h2> */}
-              {/* <p class="text-white-50">
+              {/* <p className="text-white-50">
                 At the Tai Chi Academy, we are dedicated to promoting health,
                 inner peace, and vitality through the ancient art of Tai Chi.
                 Whether you're a beginner seeking balance and relaxation or an
@@ -74,19 +74,19 @@ function Home() {
         </div>
       </section>
       <section class="projects-section bg-light" id="projects">
-        <div class="container px-4 px-lg-5">
-          <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-8 col-lg-7">
+        <div className="container px-4 px-lg-5">
+          <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
+            <div className="col-xl-8 col-lg-7">
               <img
-                class="img-fluid mb-3 mb-lg-0"
+                className="img-fluid mb-3 mb-lg-0"
                 src="images/D.Wolff_.jpg"
                 alt="..."
               />
             </div>
-            <div class="col-xl-4 col-lg-5">
-              <div class="featured-text text-center text-lg-left">
+            <div className="col-xl-4 col-lg-5">
+              <div className="featured-text text-center text-lg-left">
                 <h4>De Instructeur</h4>
-                <p class="text-black-50 mb-0">
+                <p className="text-black-50 mb-0">
                   Jarenlang heb ik met plezier verschillende vechtsporten
                   beoefend. Tegenwoordig richt ik mij met passie op het
                   verspreiden van Tai Chi in het midden van Nederland. Ik
