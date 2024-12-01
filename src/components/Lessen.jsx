@@ -80,7 +80,7 @@ function Lessen() {
           <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
+                class="img-fluid-lessen"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaolin-vechtkunst.nl%2Fwp-content%2Fuploads%2F2014%2F07%2FIMG_20191119_135556.jpg&f=1&nofb=1&ipt=c4852d70330a40e38eaac7e43c8825d7aab54d4243f62303eaab78eba812aff5&ipo=images"
                 alt="..."
               />
@@ -112,7 +112,7 @@ function Lessen() {
           <div class="row gx-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
+                class="img-fluid-lessen"
                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA4L2ZEQFpmU%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=69e27c56831da722814cb151887de39e1c888a3eb37ff73e96ebf0eae8226587&ipo=images"
                 alt="..."
               />
@@ -147,9 +147,9 @@ function Lessen() {
           <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaolin-vechtkunst.nl%2Fwp-content%2Fuploads%2F2014%2F07%2FIMG_20191119_135556.jpg&f=1&nofb=1&ipt=c4852d70330a40e38eaac7e43c8825d7aab54d4243f62303eaab78eba812aff5&ipo=images"
-                alt="..."
+                class="img-fluid-lessen"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FL_9iz0spMs0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=c37f566649ccc472b83a1d0f496e6290b973674949054f75bf1ea74302b94d1b&ipo=images"
+                alt="push hands picture"
               />
             </div>
             <div class="col-lg-6">
@@ -184,8 +184,8 @@ function Lessen() {
           <div class="row gx-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA4L2ZEQFpmU%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=69e27c56831da722814cb151887de39e1c888a3eb37ff73e96ebf0eae8226587&ipo=images"
+                class="img-fluid-lessen"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqxqsXObsqog%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=34612fe57b3a182a96b51f8b4bac30c26417967141c2c1054a51719ac5bc9324&ipo=images"
                 alt="..."
               />
             </div>
@@ -220,8 +220,8 @@ function Lessen() {
           <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaolin-vechtkunst.nl%2Fwp-content%2Fuploads%2F2014%2F07%2FIMG_20191119_135556.jpg&f=1&nofb=1&ipt=c4852d70330a40e38eaac7e43c8825d7aab54d4243f62303eaab78eba812aff5&ipo=images"
+                class="img-fluid-lessen"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FS3PYzolrgi4%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=f23b490bfa9876886270f57240693d0c122467f6e657f6b50d67462cab053adb&ipo=images"
                 alt="..."
               />
             </div>
@@ -256,8 +256,8 @@ function Lessen() {
           <div class="row gx-0 justify-content-center">
             <div class="col-lg-6">
               <img
-                class="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA4L2ZEQFpmU%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=69e27c56831da722814cb151887de39e1c888a3eb37ff73e96ebf0eae8226587&ipo=images"
+                class="img-fluid-lessen"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fvwgdbdj2qZ0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=218de3d5ca9e6e21a61d393873d3d608f6e6d677b74ec911fa48a72ef7db202c&ipo=images"
                 alt="..."
               />
             </div>

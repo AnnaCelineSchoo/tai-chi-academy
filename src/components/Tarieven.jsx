@@ -49,7 +49,7 @@ function Tarieven() {
             <div className="col-md-4 mb-4">
               <div className="card pricing-card">
                 <div className="card-body">
-                  <h5 className="card-title">1 Groupsles</h5>
+                  <h5 className="card-title">1 Groepsles</h5>
                   <h2 className="card-price">
                     €9,99<span className="text-muted fs-6">/les</span>
                   </h2>
@@ -69,9 +69,7 @@ function Tarieven() {
             <div className="col-md-4 mb-4">
               <div className="card pricing-card">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    1 Groepsles per Week per Kwartaal
-                  </h5>
+                  <h5 className="card-title">1 Groepsles per Week</h5>
                   <h2 className="card-price">
                     €79,99<span className="text-muted fs-6">/kwartaal</span>
                   </h2>
@@ -93,9 +91,7 @@ function Tarieven() {
             <div className="col-md-4 mb-4">
               <div className="card pricing-card">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    Twee Groepslessen per week per Kwartaal
-                  </h5>
+                  <h5 className="card-title">2 Groepslessen per week</h5>
                   <h2 className="card-price">
                     €99,99<span className="text-muted fs-6">/kwartaal</span>
                   </h2>
@@ -117,9 +113,7 @@ function Tarieven() {
             <div className="col-md-4 mb-4">
               <div className="card pricing-card">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    Onbeperkt Groepslessen per Kwartaal
-                  </h5>
+                  <h5 className="card-title">Onbeperkt Groepslessen</h5>
                   <h2 className="card-price">
                     €119,99<span className="text-muted fs-6">/kwartaal</span>
                   </h2>
@@ -142,7 +136,7 @@ function Tarieven() {
               <div className="card pricing-card">
                 <div className="card-body">
                   <h5 className="card-title">
-                    Onpekert wedstrijd per Kwartaal
+                    Onpekert Groepslessen en wedstrijd begeleiding
                   </h5>
                   <h2 className="card-price">
                     €179,99<span className="text-muted fs-6">/kwartaal</span>

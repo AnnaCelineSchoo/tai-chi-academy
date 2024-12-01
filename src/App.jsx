@@ -8,7 +8,6 @@ import LessenPage from "./pages/LessenPage.jsx";
 
 // todo:
 // achtergrond contact niet goed
-// vertaal alles naar Nederlands
 // make repeatable component for media (json?)
 // make page to show full media
 // maak agenda met lestijden en eventuele wokshops die gepland zijn
