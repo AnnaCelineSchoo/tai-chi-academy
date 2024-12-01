@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "National Tai Chi Championship 2023",
+    "date": "2023-09-15",
+    "description": "An annual event showcasing the best Tai Chi practitioners from across the country.",
+    "image": "national-championship.jpg",
+    "videoUrl": "https://www.youtube.com/embed/example1"
+  },
+  {
+    "id": 2,
+    "title": "Tai Chi Workshop: Mastering the Basics",
+    "date": "2023-08-10",
+    "description": "A beginner-friendly workshop focused on foundational Tai Chi movements.",
+    "image": "workshop-basics.jpg",
+    "videoUrl": "https://www.youtube.com/embed/example2"
+  },
+  {
+    "id": 3,
+    "title": "Summer Tai Chi Retreat 2023",
+    "date": "2023-07-20",
+    "description": "A week-long retreat with in-depth training and meditation in the mountains.",
+    "image": "summer-retreat.jpg",
+    "videoUrl": "https://www.youtube.com/embed/example3"
+  },
+  {
+    "id": 4,
+    "title": "Spring Tai Chi Open Tournament",
+    "date": "2023-06-05",
+    "description": "An open tournament for all skill levels to celebrate Tai Chi practice.",
+    "image": "spring-tournament.jpg",
+    "videoUrl": "https://www.youtube.com/embed/example4"
+  }
+]
