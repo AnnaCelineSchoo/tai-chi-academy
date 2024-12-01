@@ -73,7 +73,7 @@ function Contact() {
                     id="name"
                     name="name"
                     type="text"
-                    placeholder="Enter your name..."
+                    placeholder="naam..."
                     value={formData.name}
                     onChange={handleChange}
                   />
@@ -88,7 +88,7 @@ function Contact() {
                     id="emailAddress"
                     name="email"
                     type="email"
-                    placeholder="Enter email address..."
+                    placeholder="email..."
                     value={formData.email}
                     onChange={handleChange}
                   />
@@ -103,7 +103,7 @@ function Contact() {
                     id="phone"
                     name="phone"
                     type="text"
-                    placeholder="Enter your phone number..."
+                    placeholder="Telefoon..."
                     value={formData.phone}
                     onChange={handleChange}
                   />
@@ -118,7 +118,7 @@ function Contact() {
                     id="message"
                     name="message"
                     type="text"
-                    placeholder="Write your message..."
+                    placeholder="Bericht..."
                     rows="5"
                     value={formData.message}
                     onChange={handleChange}

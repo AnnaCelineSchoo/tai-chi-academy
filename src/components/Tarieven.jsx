@@ -43,6 +43,63 @@ function Tarieven() {
         </div>
       </section>
 
+      {/* Subsections */}
+      <div className="container my-5">
+        <h2 className="text-center mb-5 mt-5">Soorten Lespakketten</h2>
+        <div className="row text-center mb-5">
+          <div className="col-md-6 mb-4">
+            <h3>Losse groepsles</h3>
+            <p>
+              Bij ons kun je een losse groepsles kopen als je nog niet zeker
+              weet hoe vaak je wilt trainen of of je de uitdaging op de lange
+              termijn wilt aangaan. Dit geeft je de flexibiliteit om de les
+              eerst te ervaren zonder een langdurige verplichting. Je kunt de
+              les dan eenmalig volgen op de datum die voor jou het beste
+              uitkomt.
+            </p>
+          </div>
+          <div className="col-md-6 mb-4">
+            <h3>Groepslessen</h3>
+            <p>
+              Bij ons kun je groepslessen volgen op maandag, dinsdag en vrijdag.
+              Hieronder kun je kiezen hoe vaak je wilt trainen. Daarnaast worden
+              er vrije trainingen aangeboden op zondag en woensdag op een
+              externe locatie. Met de verschillende groepsleslidmaatschappen ben
+              je ook welkom bij deze trainingen.
+            </p>
+          </div>
+          <div className="col-md-6 mb-4">
+            <h3>Wedstrijd begeleiding</h3>
+            <p>
+              Sommige leden willen een stapje verder gaan en nemen deel aan
+              wedstrijden. Onze wedstrijdbegeleiding biedt professionele
+              ondersteuning voor deelnemers die zich voorbereiden op competitie.
+              Dit omvat begeleiding tijdens de wedstrijd zelf, waarbij je ter
+              plaatse wordt ondersteund door een coach die je helpt met
+              strategieën en je mentaal voorbereidt. Vervoer naar de locatie
+              wordt samen met andere deelnemers geregeld, zodat je je geen
+              zorgen hoeft te maken over de logistiek. Daarnaast bieden we
+              gerichte tips en extra aandacht tijdens de trainingen, specifiek
+              gericht op het verbeteren van je prestaties voor aankomende
+              wedstrijden.
+            </p>
+          </div>
+          <div className="col-md-6 mb-4">
+            <h3>Privé lessen</h3>
+            <p>
+              Onze privélessen bieden de mogelijkheid voor persoonlijke training
+              op maat, waarbij we volledig inspelen op jouw behoeften en doelen.
+              Of je nu specifieke technieken wilt verbeteren of meer
+              persoonlijke aandacht nodig hebt, een privéles biedt de ideale
+              omgeving om je vaardigheden snel te ontwikkelen. De lessen kunnen
+              in blokken van minimaal 2 uur en maximaal 4 uur worden geboekt,
+              zodat je de tijd hebt om intensief te trainen en optimaal te
+              profiteren van de begeleiding.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <section id="pricing" className="py-5">
         <div className="container">
           <div className="row text-center">

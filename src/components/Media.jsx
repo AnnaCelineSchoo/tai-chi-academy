@@ -76,9 +76,8 @@ function Media() {
             ></iframe>
           </div>
         </div>
-        {/* Page Title */}
-        <h2 className="text-center mb-5">Tai Chi Evenementen</h2>
         {/* Subsections */}
+        <h2 className="text-center mb-5">Tai Chi Evenementen</h2>
         <div className="row text-center mb-5">
           <div className="col-md-6 mb-4">
             <h3>Competities</h3>
