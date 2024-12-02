@@ -8,7 +8,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["bootstrap"],
   },
-  base: "/tai-chi-academy/", // Replace with the name of your GitHub repo
+  base: "/", // Replace with the name of your GitHub repo (/ when you have a custom domain)
   build: {
     outDir: "dist", // Default Vite output directory
   },
