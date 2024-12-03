@@ -1,7 +1,7 @@
 import Media from "../components/Media";
 
-function MmediaPage() {
+function MediaPage() {
   return <Media />;
 }
 
-export default Media;
+export default MediaPage;

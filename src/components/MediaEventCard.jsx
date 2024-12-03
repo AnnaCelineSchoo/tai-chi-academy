@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function MediaEventCard({ mediaItem, mediaItemIndex }) {
   return (
     <>
-      <div className="col-md-4 mb-4">
+      <div className="col-md-4 mb-4" id={`mediaitem-${mediaItem.id}`}>
         <div className="card border-0 shadow-sm">
           <img
             src={mediaItem.image}

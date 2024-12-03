@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-//import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 
 function Home() {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       {" "}
@@ -14,14 +20,17 @@ function Home() {
               <h2 className="text-white-50 mx-auto mt-2 mb-5">
                 Empowering Mind, Body, and Spirit Through the Art of taijiquan
               </h2>
-              <Link className="btn btn-primary" to="/Lessen">
+              <button
+                className="btn btn-primary"
+                onClick={() => scrollToSection("meerInformatie")}
+              >
                 Meer Informatie
-              </Link>
+              </button>
             </div>
           </div>
         </div>
       </header>
-      <section className="about-section text-center" id="about">
+      <section className="about-section text-center" id="meerInformatie">
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
@@ -39,32 +48,6 @@ function Home() {
                 Chi. Begin je reis naar rust en energie bij de taijiquan
                 Academie.
               </p>
-
-              {/* <h2 class="text-white mb-4">Welcome to the taijiquan Academy</h2> */}
-              {/* <p className="text-white-50">
-                At the taijiquan Academy, we are dedicated to promoting health,
-                inner peace, and vitality through the ancient art of taijiquan.
-                Whether you're a beginner seeking balance and relaxation or an
-                advanced practitioner looking to deepen your understanding, our
-                academy offers a welcoming space for everyone. Why Choose Tai
-                Chi? taijiquan is a time-honored practice that harmonizes body,
-                mind, and spirit. It combines gentle, flowing movements with
-                focused breathing and mindfulness, providing benefits such as:
-                Stress Reduction: Achieve calmness and clarity in your daily
-                life. Improved Health: Boost flexibility, balance, and
-                circulation. Energy Flow: Enhance your body's natural energy, or
-                "Qi." What We Offer Expert Instructors: Guided by skilled
-                teachers with years of experience. Comprehensive Classes: From
-                beginner fundamentals to advanced techniques. Workshops &
-                Events: Explore specialized forms and taijiquan philosophy.
-                Holistic Community: Join a supportive group of like-minded
-                individuals. Whether you're here to nurture your health, find
-                inner peace, or explore the deeper philosophy of taijiquan, the
-                taijiquan Academy is the perfect place to begin or continue your
-                journey. Step into a world of tranquility and energy. Let’s
-                move, breathe, and grow together. Welcome to the taijiquan
-                Academy.
-              </p> */}
             </div>
           </div>
           <img

@@ -11392,6 +11392,7 @@ fieldset:disabled .btn {
 }
 html {
   scroll-padding-top: calc(4.5rem - 1px);
+  scroll-behavior: smooth;
 }
 
 body {

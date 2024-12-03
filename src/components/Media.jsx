@@ -1,17 +1,16 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import MediaEventCard from "./MediaEventCard";
-
-// todo add media json
-// loop trough json and show cars
-// make seperate component of even card
-// make link to more info about event
-// make button show more cards
 
 function Media() {
   const [MediaData, setMediaData] = useState([]);
-  const [showAllMedia, setshowAllMedia] = useState(false);
+  const [showAllMedia, setShowAllMedia] = useState(
+    JSON.parse(localStorage.getItem("showAllMedia")) || false // Retrieve state from localStorage
+  );
 
+  const location = useLocation(); // React Router hook to access location
+
+  // Fetch data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -22,15 +21,32 @@ function Media() {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const result = await response.json();
-        console.log("fetched data", result);
         setMediaData(result);
-      } catch {
+      } catch (error) {
         console.error("Error fetching data:", error);
-        setExcerssetMediaDataises([]);
+        setMediaData([]);
       }
     };
     fetchData();
   }, []);
+
+  // Handle scrolling when data is loaded and hash changes
+  useEffect(() => {
+    if (MediaData.length > 0 && location.hash) {
+      const id = location.hash.substring(1); // Remove the '#' from the hash
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [MediaData, location.hash]); // Re-run when data is loaded or hash changes
+
+  // Store the "Show All" state in localStorage
+  const handleShowAllToggle = () => {
+    const newState = !showAllMedia;
+    setShowAllMedia(newState);
+    localStorage.setItem("showAllMedia", JSON.stringify(newState)); // Save to localStorage
+  };
 
   return (
     <>
@@ -112,29 +128,22 @@ function Media() {
         </div>
         {/* activity secction */}
         <div className="row">
-          {console.log(MediaData)}
-          {showAllMedia
-            ? MediaData.map((mediaItem, index) => (
-                <MediaEventCard
-                  key={mediaItem.id}
-                  mediaItem={mediaItem}
-                  mediaItemIndex={index}
-                />
-              ))
-            : MediaData.slice(0, 3).map((mediaItem, index) => (
-                <MediaEventCard
-                  key={mediaItem.id}
-                  mediaItem={mediaItem}
-                  mediaItemIndex={index}
-                />
-              ))}
+          {/* Render media items */}
+          {(showAllMedia ? MediaData : MediaData.slice(0, 3)).map(
+            (mediaItem, index) => (
+              <MediaEventCard
+                id={`mediaitem-${mediaItem.id}`}
+                key={mediaItem.id}
+                mediaItem={mediaItem}
+                mediaItemIndex={index}
+              />
+            )
+          )}
         </div>
 
         <div className="text-center mt-5">
-          <button
-            onClick={() => setshowAllMedia((prev) => !prev)}
-            className="btn btn-primary"
-          >
+          {/* Toggle button to show all or some items */}
+          <button onClick={handleShowAllToggle} className="btn btn-primary">
             {showAllMedia ? "Minder" : "Meer"}
           </button>
         </div>

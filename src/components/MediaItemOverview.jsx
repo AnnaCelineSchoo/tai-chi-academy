@@ -16,11 +16,22 @@ function MediaItemOverview({ mediaItem }) {
               {mediaItem.description && (
                 <p className="text-white-50">{mediaItem.description}</p>
               )}
-              <Link className="btn btn-primary" to="/media">
+              <Link
+                className="btn btn-primary"
+                to={`/media#mediaitem-${mediaItem.id}`}
+              >
                 terug naar media
               </Link>
+
               {mediaItem.image && (
-                <img className="img-fluid mt-5" src={mediaItem.image} alt="" />
+                <div>
+                  {" "}
+                  <img
+                    className="img-fluid mt-5"
+                    src={mediaItem.image}
+                    alt=""
+                  />
+                </div>
               )}
             </div>
           </div>
