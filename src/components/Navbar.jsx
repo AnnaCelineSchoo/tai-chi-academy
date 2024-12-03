@@ -59,7 +59,7 @@ function Navbar() {
           alt="taichi Academy Logo"
         />
         <Link className="navbar-brand" to="/">
-          Tai Chi Academy
+          Taijiquan Academy
         </Link>
         <button
           className="navbar-toggler navbar-toggler-right"

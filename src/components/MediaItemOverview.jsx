@@ -34,7 +34,7 @@ function MediaItemOverview({ mediaItem }) {
             <div className="video-container">
               <iframe
                 src={mediaItem.videoUrl}
-                title="Tai Chi Event Video"
+                title="taijiquan Event Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>

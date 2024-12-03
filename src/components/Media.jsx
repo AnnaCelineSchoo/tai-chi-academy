@@ -42,18 +42,18 @@ function Media() {
               <h2 className="text-white mb-4">Media</h2>
               <p className="text-white-50">
                 Welkom op onze Media-pagina, waar je alles kunt vinden over de
-                spannende wereld van Tai Chi evenementen! Hier delen we
+                spannende wereld van taijiquan evenementen! Hier delen we
                 informatie over aankomende competities, workshops, demonstraties
                 en andere speciale evenementen. Of je nu een beginnende
                 beoefenaar bent die zijn vaardigheden wil verbeteren of een
-                ervaren Tai Chi-liefhebber die op zoek is naar nieuwe
+                ervaren taijiquan-liefhebber die op zoek is naar nieuwe
                 uitdagingen, deze pagina biedt jou de laatste updates. We
                 moedigen iedereen aan om deel te nemen, te leren en zich te
-                verdiepen in de rijke traditie van Tai Chi door middel van
+                verdiepen in de rijke traditie van taijiquan door middel van
                 hands-on ervaring. Van regionale competities tot internationale
                 workshops, blijf op de hoogte van de mogelijkheden om je kennis
                 en praktijk te verdiepen en deel uit te maken van onze groeiende
-                Tai Chi-gemeenschap.
+                taijiquan-gemeenschap.
               </p>
               {/* <Link className="btn btn-primary" to="#about">
                 Ervaringen
@@ -66,23 +66,23 @@ function Media() {
       <div className="container my-5">
         {/* Embedded YouTube Video */}
         <div className="text-center mb-5">
-          <h2 className="text-gray">Ervaar Tai Chi Academy</h2>
+          <h2 className="text-gray">Ervaar taijiquan Academy</h2>
           <div className="video-container">
             <iframe
               src="https://www.youtube.com/embed/3pNW8sTTxhI?si=V1CgKG0JM-S2hcXb"
-              title="Tai Chi Event Video"
+              title="taijiquan Event Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>
         </div>
         {/* Subsections */}
-        <h2 className="text-center mb-5">Tai Chi Evenementen</h2>
+        <h2 className="text-center mb-5">taijiquan Evenementen</h2>
         <div className="row text-center mb-5">
           <div className="col-md-6 mb-4">
             <h3>Competities</h3>
             <p>
-              Ontdek de kunst van Tai Chi door middel van nationale en
+              Ontdek de kunst van taijiquan door middel van nationale en
               internationale competities, waar de beste beoefenaars samenkomen
               om hun vaardigheden te meten.
             </p>
@@ -105,7 +105,7 @@ function Media() {
           <div className="col-md-6 mb-4">
             <h3>Prestaties in het Verleden</h3>
             <p>
-              Verken ons archief van eerdere Tai Chi-toernooien, workshops en
+              Verken ons archief van eerdere taijiquan-toernooien, workshops en
               evenementen die in de loop der jaren zijn gevierd.
             </p>
           </div>
