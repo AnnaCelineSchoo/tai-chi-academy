@@ -149,7 +149,7 @@ function Contact() {
 
           <p className="text-black-50">
             U kunt het pad inlopen bij het blauwe bord. Achter dit bord bevindt
-            zich de gymzaal waar de tai chi lessen plaatsvindene. De foto
+            zich de gymzaal waar de taijiquan lessen plaatsvindene. De foto
             hieronder laat dit zien.
           </p>
           <div className="map-container">

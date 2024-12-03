@@ -145,7 +145,7 @@ function Tarieven() {
               </div>
             </div>
 
-            <div className="col-md-4 mb-4">
+            {/* <div className="col-md-4 mb-4">
               <div className="card pricing-card">
                 <div className="card-body">
                   <h5 className="card-title">2 Groepslessen per week</h5>
@@ -211,7 +211,7 @@ function Tarieven() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-md-4 mb-4">
               <div className="card pricing-card">

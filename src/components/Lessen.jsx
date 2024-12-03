@@ -9,18 +9,18 @@ function Lessen() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Lessen</h2>
               <p className="text-white-50">
-                Onze Tai Chi lessen zijn zorgvuldig opgebouwd, met verschillende
-                onderdelen die elke les interessant en uitdagend maken. Naast de
-                verschillende stijlen van Tai Chi, zoals Chen, Yang en Wudang,
-                komen ook Push Hands, zelfverdediging en Qi Gong aan bod. Deze
-                afwisseling zorgt ervoor dat je iedere les blijft groeien en
-                verbeteren. Motivatie en inzet zijn essentieel, niet alleen voor
-                vooruitgang in Tai Chi, maar ook in je persoonlijke ontwikkeling
-                en dagelijkse leven.
+                Onze taijiquan lessen zijn zorgvuldig opgebouwd, met
+                verschillende onderdelen die elke les interessant en uitdagend
+                maken. Naast de verschillende stijlen van taijiquan, zoals Chen,
+                Yang en Wudang, komen ook Push Hands, zelfverdediging en Qi Gong
+                aan bod. Deze afwisseling zorgt ervoor dat je iedere les blijft
+                groeien en verbeteren. Motivatie en inzet zijn essentieel, niet
+                alleen voor vooruitgang in taijiquan, maar ook in je
+                persoonlijke ontwikkeling en dagelijkse leven.
               </p>
               <img
                 className="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.dailymail.co.uk%2Fi%2Fpix%2F2015%2F10%2F19%2F06%2F2D8C5AFE00000578-3278607-image-a-7_1445234115940.jpg&f=1&nofb=1&ipt=71a73327d41afa5f23434a6493a7989088e4d633a6ee902233a0ed1bcf3688a7&ipo=images"
+                src="https://shaolin-vechtkunst.nl/wp-content/uploads/2021/09/IMG_20210913_183600-1200x591.jpg"
                 alt=""
               />
               <div>
@@ -41,7 +41,7 @@ function Lessen() {
               <div className="col-md-6 mb-4">
                 <h3>Tai Ji Quan</h3>
                 <p>
-                  In Apeldoorn beoefenen we verschillende stijlen van Tai Chi,
+                  In Apeldoorn beoefenen we verschillende stijlen van taijiquan,
                   zoals de Chen, Wudang, Wu en Yang stijlen. Daarnaast trainen
                   we ook in Shaolin Rou Quan, oftewel Soft Boxing.
                 </p>
@@ -49,16 +49,16 @@ function Lessen() {
               <div className="col-md-6 mb-4">
                 <h3>Push Hands</h3>
                 <p>
-                  Push Hands is een belangrijke oefening binnen Tai Chi waarbij
-                  balans, gevoeligheid en controle van de energie centraal
-                  staan. Het helpt om de principes van Tai Chi toe te passen in
-                  een partneroefening.
+                  Push Hands is een belangrijke oefening binnen taijiquan
+                  waarbij balans, gevoeligheid en controle van de energie
+                  centraal staan. Het helpt om de principes van taijiquan toe te
+                  passen in een partneroefening.
                 </p>
               </div>
               <div className="col-md-6 mb-4">
                 <h3>Zelfverdediging</h3>
                 <p>
-                  Tai Chi wordt ook gebruikt als een effectieve vorm van
+                  taijiquan wordt ook gebruikt als een effectieve vorm van
                   zelfverdediging door middel van gecontroleerde bewegingen en
                   het benutten van de kracht van de tegenstander. We leren
                   technieken die zowel praktisch als krachtig zijn in een
@@ -72,7 +72,7 @@ function Lessen() {
                   de energiecirculatie in het lichaam door middel van langzame,
                   gecontroleerde bewegingen en ademhaling. Meditatie helpt om
                   innerlijke rust en focus te ontwikkelen, wat essentieel is
-                  voor het beoefenen van Tai Chi.
+                  voor het beoefenen van taijiquan.
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-left">
                     <h4 class="text-white">Tai Ji Quan Ongewapend</h4>
                     <p class="mb-0 text-white-50">
-                      Tai Ji Quan Ongewapend is de basis van veel Tai Chi
+                      Tai Ji Quan Ongewapend is de basis van veel taijiquan
                       oefeningen en vormt de essentie van de discipline. Hier
                       staan de langzame, gecontroleerde bewegingen centraal,
                       waarbij kracht en flexibiliteit in balans zijn.
@@ -124,7 +124,7 @@ function Lessen() {
                     <h4 class="text-white">Tai Ji Quan Gewapend</h4>
                     <p class="mb-0 text-white-50">
                       Tai Ji Quan Gewapend voegt een extra dimensie toe aan de
-                      beoefening van Tai Chi door het gebruik van traditionele
+                      beoefening van taijiquan door het gebruik van traditionele
                       wapens, zoals de zwaard, staf en speer. In deze gevorderde
                       vorm worden de langzame, vloeiende bewegingen gecombineerd
                       met de precisie en kracht die nodig zijn voor het hanteren
@@ -136,8 +136,8 @@ function Lessen() {
                       Gewapend leert je niet alleen de technische aspecten van
                       het gebruik van wapens, maar versterkt ook je mentale
                       concentratie en zelfbewustzijn. Het is een prachtige
-                      manier om Tai Chi naar een hoger niveau te tillen, met een
-                      diepe verbinding tussen lichaam en geest.
+                      manier om taijiquan naar een hoger niveau te tillen, met
+                      een diepe verbinding tussen lichaam en geest.
                     </p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ function Lessen() {
                     <h4 class="text-white">Pushands</h4>
                     <p class="mb-0 text-white-50">
                       Push Hands, of Tui Shou, is een essentiële oefening binnen
-                      Tai Chi die zich richt op het ontwikkelen van
+                      taijiquan die zich richt op het ontwikkelen van
                       gevoeligheid, balans en het effectief gebruiken van je
                       eigen energie in interactie met anderen. In deze oefening
                       werken twee beoefenaars samen om elkaar uit balans te
@@ -173,7 +173,7 @@ function Lessen() {
                       versterkt niet alleen je fysieke vaardigheden, maar
                       bevordert ook mentale concentratie en het vermogen om kalm
                       te blijven onder druk. Push Hands is de brug tussen de
-                      theorie van Tai Chi en de praktische toepassing in een
+                      theorie van taijiquan en de praktische toepassing in een
                       dynamische situatie.
                     </p>
                   </div>
@@ -195,19 +195,20 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-right">
                     <h4 class="text-white">Zelfverdediging</h4>
                     <p class="mb-0 text-white-50">
-                      Tai Chi biedt niet alleen fysieke kracht en flexibiliteit,
-                      maar ook waardevolle technieken voor zelfverdediging. De
-                      langzame, gecontroleerde bewegingen van Tai Chi kunnen in
-                      een praktische context worden toegepast om jezelf te
-                      verdedigen tegen verschillende aanvallen. Door de
-                      principes van balans, soepelheid en het gebruik van
-                      interne kracht te combineren, leer je hoe je de energie
-                      van je tegenstander kunt omleiden en neutraliseren. Het
-                      uitgangspunt in Tai Chi zelfverdediging is niet om geweld
-                      te gebruiken, maar om de aanval te transformeren en de
-                      balans van de tegenstander te verstoren. Deze technieken
-                      helpen je niet alleen in zelfverdedigingssituaties, maar
-                      bevorderen ook zelfvertrouwen, mentale rust en een betere
+                      taijiquan biedt niet alleen fysieke kracht en
+                      flexibiliteit, maar ook waardevolle technieken voor
+                      zelfverdediging. De langzame, gecontroleerde bewegingen
+                      van taijiquan kunnen in een praktische context worden
+                      toegepast om jezelf te verdedigen tegen verschillende
+                      aanvallen. Door de principes van balans, soepelheid en het
+                      gebruik van interne kracht te combineren, leer je hoe je
+                      de energie van je tegenstander kunt omleiden en
+                      neutraliseren. Het uitgangspunt in taijiquan
+                      zelfverdediging is niet om geweld te gebruiken, maar om de
+                      aanval te transformeren en de balans van de tegenstander
+                      te verstoren. Deze technieken helpen je niet alleen in
+                      zelfverdedigingssituaties, maar bevorderen ook
+                      zelfvertrouwen, mentale rust en een betere
                       lichaamsbewustzijn. Het is een krachtige manier om zowel
                       je fysieke als mentale capaciteiten te ontwikkelen en je
                       persoonlijke veiligheid te versterken.
@@ -234,7 +235,7 @@ function Lessen() {
                       Qi Gong is een oude Chinese praktijk die zich richt op het
                       bevorderen van de stroming van levensenergie (Qi) door
                       middel van zachte bewegingen, ademhalingsoefeningen en
-                      meditatie. Het is een belangrijk onderdeel van Tai Chi,
+                      meditatie. Het is een belangrijk onderdeel van taijiquan,
                       waarin de nadruk ligt op het versterken van de interne
                       energie en het verbeteren van de gezondheid. De oefeningen
                       in Qi Gong zijn ontworpen om het lichaam te ontspannen, de
@@ -267,7 +268,7 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-right">
                     <h4 class="text-white">Meditatie</h4>
                     <p class="mb-0 text-white-50">
-                      Meditatie is een essentieel onderdeel van Tai Chi en Qi
+                      Meditatie is een essentieel onderdeel van taijiquan en Qi
                       Gong, waarbij de focus ligt op het bereiken van innerlijke
                       rust, helderheid en balans. Door middel van verschillende
                       meditatie-technieken leer je je geest te kalmeren, je
@@ -278,7 +279,7 @@ function Lessen() {
                       verbetert je concentratie, verlaagt stress en draagt bij
                       aan een diep gevoel van welzijn. Het biedt de ruimte om je
                       energie te centreren en je diepste zelf te ervaren, wat de
-                      effectiviteit van Tai Chi en Qi Gong verder versterkt.
+                      effectiviteit van taijiquan en Qi Gong verder versterkt.
                       Meditatie is dan ook de sleutel tot het ontwikkelen van de
                       innerlijke rust die nodig is om harmonie te vinden tussen
                       lichaam en geest.
@@ -297,20 +298,20 @@ function Lessen() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Kleding</h2>
               <p className="text-white-50">
-                In de Tai Chi-praktijk wordt vaak traditionele kleding gedragen,
-                die speciaal is ontworpen voor comfort en bewegingsvrijheid.
-                Deze kleding bestaat meestal uit een lichte, ademende stof die
-                het mogelijk maakt om de langzame, vloeiende bewegingen van de
-                verschillende stijlen van Tai Chi, zoals de Chen-, Yang-, Wu- en
-                Sun-stijl, vrij en ongestoord uit te voeren. Traditionele Tai
-                Chi-kleding bestaat vaak uit een losse broek en een bovenstuk
-                met een rechte snit, die het lichaam niet belemmert. De kleding
-                bevordert de ontspanning en zorgt ervoor dat de beoefenaar zich
-                volledig kan concentreren op de techniek, ademhaling en balans.
-                De keuze voor traditionele kleding draagt bij aan het behoud van
-                de culturele waarde en esthetiek van deze eeuwenoude discipline.
-                De Tai Chi kleding is eenvoudig online te bestellen via de
-                volgende website:
+                In de taijiquan-praktijk wordt vaak traditionele kleding
+                gedragen, die speciaal is ontworpen voor comfort en
+                bewegingsvrijheid. Deze kleding bestaat meestal uit een lichte,
+                ademende stof die het mogelijk maakt om de langzame, vloeiende
+                bewegingen van de verschillende stijlen van taijiquan, zoals de
+                Chen-, Yang-, Wu- en Sun-stijl, vrij en ongestoord uit te
+                voeren. Traditionele Tai Chi-kleding bestaat vaak uit een losse
+                broek en een bovenstuk met een rechte snit, die het lichaam niet
+                belemmert. De kleding bevordert de ontspanning en zorgt ervoor
+                dat de beoefenaar zich volledig kan concentreren op de techniek,
+                ademhaling en balans. De keuze voor traditionele kleding draagt
+                bij aan het behoud van de culturele waarde en esthetiek van deze
+                eeuwenoude discipline. De taijiquan kleding is eenvoudig online
+                te bestellen via de volgende website:
                 <Link
                   className="text-white-50"
                   to="https://www.kungfu-supply.com/"
@@ -324,13 +325,13 @@ function Lessen() {
 
               <img
                 className="img-fluid"
-                src="https://ae01.alicdn.com/kf/Hf502ed9c0e684d9eaac3e082bfb7cdc1T/Chinese-Traditionele-Kleding-Set-Man-Vrouw-Tai-Chi-Kung-Fu-Uniformen-12-Kleuren-Wushu-Top-Broek.jpg"
+                src="https://media.licdn.com/dms/image/sync/v2/D4E27AQFF0KYjke6Ufw/articleshare-shrink_800/articleshare-shrink_800/0/1725227935294?e=2147483647&v=beta&t=Zne5ELLCJ-ZHeTk3uD1FJmU_ddomMU-WZMdoBK5zjlg"
                 alt=""
               />
 
               <h2 className="text-white mb-4 mt-4">Algemene informatie</h2>
               <p className="text-white-50">
-                Binnen Tai Chi bestaan verschillende stijlen, zoals de Chen-,
+                Binnen taijiquan bestaan verschillende stijlen, zoals de Chen-,
                 Yang-, Wu- en Sun-stijl. De Yang-stijl wordt voornamelijk
                 langzaam uitgevoerd, terwijl de Chen-stijl ook explosieve
                 bewegingen bevat.
@@ -338,24 +339,25 @@ function Lessen() {
               <p className="text-white-50">
                 Deze stijlen zijn vaak verder onderverdeeld in diverse
                 substijlen, waarin leraren hun eigen kennis, vaardigheid en
-                ervaring hebben toegevoegd. De bewegingen binnen Tai Chi worden
-                in een vaste volgorde uitgevoerd, wat de beoefenaars "vormen" of
-                taolu noemen. Elke stijl heeft zijn eigen vormen, die van leraar
-                op leerling worden doorgegeven. Het doorlopen van een vorm kan
-                tussen de 3 en 20 minuten duren. De langzame, ontspannen
-                bewegingen die vanuit de buik worden uitgevoerd, zijn kenmerkend
-                voor Tai Chi. In de Chen-stijl ligt de nadruk sterker op het
-                zelfverdedigingsaspect dan in bijvoorbeeld de Yang-stijl.
+                ervaring hebben toegevoegd. De bewegingen binnen taijiquan
+                worden in een vaste volgorde uitgevoerd, wat de beoefenaars
+                "vormen" of taolu noemen. Elke stijl heeft zijn eigen vormen,
+                die van leraar op leerling worden doorgegeven. Het doorlopen van
+                een vorm kan tussen de 3 en 20 minuten duren. De langzame,
+                ontspannen bewegingen die vanuit de buik worden uitgevoerd, zijn
+                kenmerkend voor taijiquan. In de Chen-stijl ligt de nadruk
+                sterker op het zelfverdedigingsaspect dan in bijvoorbeeld de
+                Yang-stijl.
               </p>
               <p className="text-white-50">
-                Bij Tai Chi als zelfverdediging wordt de balans van de
+                Bij taijiquan als zelfverdediging wordt de balans van de
                 tegenstander verstoord door mee te bewegen met diens bewegingen
                 en deze te neutraliseren. Het behouden van je eigen balans is
                 hierbij van groot belang. Zodra de tegenstander uit balans is,
                 kan eventueel een tegenaanval worden uitgevoerd.{" "}
               </p>
               <p className="text-white-50">
-                Binnen de Tai Chi lessen van School He Yong Gan in Apeldoorn
+                Binnen de taijiquan lessen van School He Yong Gan in Apeldoorn
                 worden ook verschillende wapens gebruikt, zoals zwaarden,
                 stokken, speren, waaiers en wandelstokken, die deel uitmaken van
                 bepaalde vormen en stijlen.
