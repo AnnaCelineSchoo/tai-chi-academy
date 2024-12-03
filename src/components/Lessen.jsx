@@ -20,7 +20,7 @@ function Lessen() {
               </p>
               <img
                 className="img-fluid"
-                src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.dailymail.co.uk%2Fi%2Fpix%2F2015%2F10%2F19%2F06%2F2D8C5AFE00000578-3278607-image-a-7_1445234115940.jpg&f=1&nofb=1&ipt=71a73327d41afa5f23434a6493a7989088e4d633a6ee902233a0ed1bcf3688a7&ipo=images"
+                src="https://shaolin-vechtkunst.nl/wp-content/uploads/2021/09/IMG_20210913_183600-1200x591.jpg"
                 alt=""
               />
               <div>
@@ -325,7 +325,7 @@ function Lessen() {
 
               <img
                 className="img-fluid"
-                src="https://ae01.alicdn.com/kf/Hf502ed9c0e684d9eaac3e082bfb7cdc1T/Chinese-Traditionele-Kleding-Set-Man-Vrouw-Tai-Chi-Kung-Fu-Uniformen-12-Kleuren-Wushu-Top-Broek.jpg"
+                src="https://media.licdn.com/dms/image/sync/v2/D4E27AQFF0KYjke6Ufw/articleshare-shrink_800/articleshare-shrink_800/0/1725227935294?e=2147483647&v=beta&t=Zne5ELLCJ-ZHeTk3uD1FJmU_ddomMU-WZMdoBK5zjlg"
                 alt=""
               />
 
