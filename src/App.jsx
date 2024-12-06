@@ -7,6 +7,7 @@ import MediaPage from "./pages/MediaPage.jsx";
 import LessenPage from "./pages/LessenPage.jsx";
 import MediaItemPage from "./pages/MediaItemPage.jsx";
 import ScrollToTop from "./layouts/ScrollToTop.jsx";
+import AgendaPage from "./pages/AgendaPage.jsx";
 
 // todo:
 // achtergrond contact niet goed
@@ -26,6 +27,7 @@ function App() {
           <Route path="/tarieven" element={<TarievenPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/mediaItem/:id" element={<MediaItemPage />} />
+          <Route path="/agenda" element={<AgendaPage />} />
         </Route>
       </Routes>
     </Router>
