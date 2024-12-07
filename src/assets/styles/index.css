@@ -11,6 +11,35 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+.agenda-container {
+  position: relative;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%); /* Adjust for the container's width and height */
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: auto; /* Let height adjust automatically */
+}
+
+/* Style the iframe */
+.agenda-container iframe {
+  width: 100%; /* Take the full width of the container */
+  height: 700px; /* Fixed height for better visibility */
+}
+
+/* Responsive media queries */
+@media (min-width: 768px) {
+  .agenda-container {
+    width: 70%; /* Larger width for tablets and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  .agenda-container {
+    width: 50%; /* Smaller width for desktops to balance design */
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;

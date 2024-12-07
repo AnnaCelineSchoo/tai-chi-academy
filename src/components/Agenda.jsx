@@ -21,13 +21,16 @@ function Agenda() {
           </div>
         </div>
       </section>
-      <div className="video-container">
-        <iframe
-          src={import.meta.env.VITE_AGENDA_URL}
-          width="800"
-          height="600"
-          framebBorder="0"
-        ></iframe>
+
+      <div className="container my-5 ">
+        <div className="agenda-container">
+          <iframe
+            src={import.meta.env.VITE_AGENDA_URL}
+            width="800"
+            height="600"
+            framebBorder="0"
+          ></iframe>
+        </div>
       </div>
     </>
   );
