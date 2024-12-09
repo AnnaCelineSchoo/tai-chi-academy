@@ -56,6 +56,20 @@ function Home() {
             alt="meditating monk"
           />
         </div>
+        <div className="container my-5 ">
+          {/* Embedded YouTube Video */}
+          <div className="text-center mb-5">
+            <h2 className="text-white">Ervaar taijiquan Academy</h2>
+            <div className="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/3pNW8sTTxhI?si=V1CgKG0JM-S2hcXb"
+                title="taijiquan Event Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="projects-section bg-light" id="projects">
         <div className="container px-4 px-lg-5">

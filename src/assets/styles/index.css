@@ -119,6 +119,20 @@ button#submitButton {
   max-height: 50px !important;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-logo {
+    max-height: 20px !important;
+  }
+}
+
+/* Media query for foldable or very small devices (like Galaxy Z Fold) */
+@media (max-width: 480px) {
+  .navbar-logo {
+    max-height: 10px !important; /* Further reduce size for very small screens */
+  }
+}
+
 /* end added css */
 :root {
   --bs-blue: #0d6efd;
@@ -11528,7 +11542,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000 100%
     ),
-    url("https://www.davidhartung.com/wp-content/uploads/2016/02/dh_2015_11_26_Monk_0035-dt-02_1.jpg");
+    url("../../../public/images/taijiquanMaster.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11622,7 +11636,7 @@ body {
       rgba(0, 0, 0, 0.5) 75%,
       #000 100%
     ),
-    url("https://www.davidhartung.com/wp-content/uploads/2016/02/dh_2015_11_26_Monk_0035-dt-02_1.jpg");
+    url("../../../public/images/taijiquanMaster.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;

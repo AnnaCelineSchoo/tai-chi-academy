@@ -11,7 +11,7 @@ function Agenda() {
                 Bekijk hieronder de actuele trainingsagenda met data en tijden
                 van onze lessen en workshops, georganiseerd door Taijiquan
                 Academy. Onze reguliere lessen vinden meestal plaats op
-                vrijdagavond van 20:00 tot 23:00. Raadpleeg de agenda voor
+                maandagavond van 19:00 tot 21:00. Raadpleeg de agenda voor
                 specifieke details en eventuele wijzigingen.
               </p>
               {/* <Link className="btn btn-primary" to="#about">
