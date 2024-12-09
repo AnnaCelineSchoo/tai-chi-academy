@@ -90,11 +90,11 @@ function Navbar() {
                 Media
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/">
+            <li className="nav-item">
+              <Link className="nav-link" to="/agenda">
                 Agenda
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/tarieven">
                 Tarieven
