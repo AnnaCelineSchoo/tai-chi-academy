@@ -11,6 +11,35 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+.agenda-container {
+  position: relative;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%); /* Adjust for the container's width and height */
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: auto; /* Let height adjust automatically */
+}
+
+/* Style the iframe */
+.agenda-container iframe {
+  width: 100%; /* Take the full width of the container */
+  height: 700px; /* Fixed height for better visibility */
+}
+
+/* Responsive media queries */
+@media (min-width: 768px) {
+  .agenda-container {
+    width: 70%; /* Larger width for tablets and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  .agenda-container {
+    width: 50%; /* Smaller width for desktops to balance design */
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -67,6 +96,7 @@
   width: 100%;
   height: 100%;
 }
+
 .contact-location-img {
   width: 100%;
   height: 450;
@@ -87,6 +117,20 @@ button#submitButton {
 
 .navbar-logo {
   max-height: 50px !important;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-logo {
+    max-height: 20px !important;
+  }
+}
+
+/* Media query for foldable or very small devices (like Galaxy Z Fold) */
+@media (max-width: 480px) {
+  .navbar-logo {
+    max-height: 10px !important; /* Further reduce size for very small screens */
+  }
 }
 
 /* end added css */
@@ -11498,7 +11542,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000 100%
     ),
-    url("https://www.davidhartung.com/wp-content/uploads/2016/02/dh_2015_11_26_Monk_0035-dt-02_1.jpg");
+    url("/images/taijiquanMaster.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11592,7 +11636,7 @@ body {
       rgba(0, 0, 0, 0.5) 75%,
       #000 100%
     ),
-    url("https://www.davidhartung.com/wp-content/uploads/2016/02/dh_2015_11_26_Monk_0035-dt-02_1.jpg");
+    url("../../../public/images/taijiquanMaster.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
