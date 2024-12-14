@@ -34,6 +34,14 @@ function Footer() {
             <i className="fab fa-tiktok"></i>
           </Link>
         </div>
+
+        <div className="image-wrapper-footer">
+          <img
+            className="img-fluid"
+            src="images/logos/Taiji-logo-rood.png"
+            alt="meditating monk"
+          />
+        </div>
       </footer>
     </>
   );

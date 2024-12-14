@@ -362,12 +362,6 @@ function Lessen() {
                 stokken, speren, waaiers en wandelstokken, die deel uitmaken van
                 bepaalde vormen en stijlen.
               </p>
-
-              <img
-                className="img-fluid"
-                src="images/taichilogo-removebg-preview.png"
-                alt="meditating monk"
-              />
             </div>
           </div>
         </div>
