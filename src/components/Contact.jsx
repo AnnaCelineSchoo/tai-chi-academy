@@ -1,14 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
+import ReCAPTCHA from "react-google-recaptcha"; // Import the reCAPTCHA component
 
 function Contact() {
-  const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
-  const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
-  const publicKey = import.meta.env.VITE_YOUR_PUBLIC_KEY;
-  console.log("Service ID:", serviceId);
-  console.log("Template ID:", templateId);
-  console.log("Public Key:", publicKey);
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,29 +15,23 @@ function Contact() {
     message: "",
   });
 
+  const [errors, setErrors] = useState({});
+  const [recaptchaToken, setRecaptchaToken] = useState(null); // Store reCAPTCHA token
+
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
-      () => {
-        console.log("SUCCESS!");
-        setFormData({ name: "", email: "", phone: "", message: "" });
-      },
-      (error) => {
-        console.log("FAILED...", error.text);
-      }
-    );
+  // Handle reCAPTCHA token response
+  const handleRecaptcha = (token) => {
+    setRecaptchaToken(token); // Store the token when reCAPTCHA is completed
   };
 
-  const [errors, setErrors] = useState({});
-
+  // Handle form changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // Form validation
   const validateForm = () => {
     const newErrors = {};
     if (!formData.name) newErrors.name = "Name is required";
@@ -46,8 +39,36 @@ function Contact() {
       newErrors.email = "Valid email is required";
     if (!formData.phone) newErrors.phoneNumber = "Phone number is required";
     if (!formData.message) newErrors.message = "Message is required";
+    if (!recaptchaToken)
+      newErrors.recaptcha = "Please verify you're not a robot"; // Ensure reCAPTCHA is completed
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
+  };
+
+  // Send email with form data and reCAPTCHA token
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    if (!validateForm()) {
+      return; // Don't submit the form if validation fails
+    }
+
+    // If no reCAPTCHA token, prevent submission
+    if (!recaptchaToken) {
+      console.error("No reCAPTCHA token found");
+      return;
+    }
+
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      () => {
+        console.log("SUCCESS!");
+        setFormData({ name: "", email: "", phone: "", message: "" });
+        setRecaptchaToken(null);
+      },
+      (error) => {
+        console.log("FAILED...", error);
+      }
+    );
   };
 
   return (
@@ -128,6 +149,17 @@ function Contact() {
                   )}
                 </div>
 
+                {/* Add reCAPTCHA widget */}
+                <div className="mb-3">
+                  <ReCAPTCHA
+                    sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY} // Use your site key from .env
+                    onChange={handleRecaptcha}
+                  />
+                  {errors.recaptcha && (
+                    <div className="text-danger">{errors.recaptcha}</div>
+                  )}
+                </div>
+
                 <div className="mt-4 mb-7">
                   <button
                     className="btn btn-primary btn-lg"
@@ -143,77 +175,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="map-section mt-5">
-        <div className="container px-4 px-lg-5">
-          <h2 className="text-center mb-4">Onze Locatie</h2>
-
-          <p className="text-black-50">
-            U kunt het pad inlopen bij het blauwe bord. Achter dit bord bevindt
-            zich de gymzaal waar de taijiquan lessen plaatsvindene. De foto
-            hieronder laat dit zien.
-          </p>
-          <div className="map-container">
-            <img
-              className="contact-location-img mb-5"
-              src="https://shaolin-vechtkunst.nl/wp-content/uploads/2013/08/Schermafbeelding-2014-09-30-om-20.59.25.png"
-              alt=""
-            />
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9776.66198371177!2d5.958902!3d52.222211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4a4945fc5402545!2sVechtsport%3A+Shaolin+Kung+Fu+Apeldoorn!5e0!3m2!1snl!2snl!4v1412235104744"
-              width="100%"
-              height="450"
-              frameBorder="0"
-              style={{
-                border: 0,
-                borderRadius: "10px",
-              }}
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact-section bg-black">
-        <div class="container px-4 px-lg-5">
-          <div class="row gx-4 gx-lg-5">
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Address</h4>
-                  <hr class="my-4 mx-auto" />
-                  <div class="small text-black-50">
-                    Mariannalaan 19a, 7316 DS Apeldoorn
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-envelope text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Email</h4>
-                  <hr class="my-4 mx-auto" />
-                  <div class="small text-black-50">
-                    <Link href="#!">addyoutemail@yourdomain.com</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Phone</h4>
-                  <hr class="my-4 mx-auto" />
-                  <div class="small text-black-50">add your phone</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Other sections as needed */}
     </>
   );
 }
