@@ -53,7 +53,7 @@ function Home() {
           <div className="image-wrapper">
             <img
               className="img-fluid"
-              src="images/logos/Taiji-logo-blauw-zwart.png"
+              src="/images/logos/Taiji-logo-blauw-zwart.png"
               alt="meditating monk"
             />
           </div>
@@ -79,7 +79,7 @@ function Home() {
             <div className="col-xl-8 col-lg-7">
               <img
                 className="img-fluid mb-3 mb-lg-0"
-                src="images/D.Wolff_.jpg"
+                src="/images/D.Wolff_.jpg"
                 alt="..."
               />
             </div>

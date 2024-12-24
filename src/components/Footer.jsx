@@ -38,7 +38,7 @@ function Footer() {
         <div className="image-wrapper-footer">
           <img
             className="img-fluid"
-            src="images/logos/Taiji-logo-rood.png"
+            src="/images/logos/Taiji-logo-rood.png"
             alt="meditating monk"
           />
         </div>
