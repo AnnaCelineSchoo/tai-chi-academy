@@ -50,11 +50,13 @@ function Home() {
               </p>
             </div>
           </div>
-          <img
-            className="img-fluid"
-            src="images/taichilogo-removebg-preview.png"
-            alt="meditating monk"
-          />
+          <div className="image-wrapper">
+            <img
+              className="img-fluid"
+              src="images/logos/Taiji-logo-blauw-zwart.png"
+              alt="meditating monk"
+            />
+          </div>
         </div>
         <div className="container my-5 ">
           {/* Embedded YouTube Video */}

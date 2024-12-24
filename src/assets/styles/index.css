@@ -20,6 +20,15 @@
   max-width: 100%;
   height: auto; /* Let height adjust automatically */
 }
+.image-wrapper {
+  max-width: 40%; /* Adjust the percentage as needed */
+  margin: 0 auto; /* Centers the image */
+}
+
+.image-wrapper-footer {
+  max-width: 20%; /* Adjust the percentage as needed */
+  margin: 0 auto; /* Centers the image */
+}
 
 /* Style the iframe */
 .agenda-container iframe {
