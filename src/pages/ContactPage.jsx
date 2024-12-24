@@ -1,65 +1,62 @@
-import React from "react";
 import { HelmetProvider, Helmet } from "react-helmet-async";
-import Agenda from "../components/Agenda";
+import Contact from "../components/Contact";
 
-function AgendaPage() {
+function ContactPage() {
   return (
-    <>
-      <HelmetProvider>
-        <Helmet>
-          {/* Title for SEO */}
-          <title>Agenda - Taijiquan Academy</title>
+    <HelmetProvider>
+      <Helmet>
+        {/* Title for SEO */}
+        <title>Contact - Taijiquan Academy</title>
 
-          {/* Meta Description */}
-          <meta
-            name="description"
-            content="Bekijk de agenda van Taijiquan Academy voor de komende lessen, evenementen en workshops in Apeldoorn."
-          />
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over lessen, workshops, of algemene informatie. Wij staan klaar om te helpen!"
+        />
 
-          {/* Keywords (less important but still useful for SEO) */}
-          <meta
-            name="keywords"
-            content="Taijiquan, Taijiquan lessen, Taijiquan evenementen, workshops, agenda, Apeldoorn, Tai Chi"
-          />
+        {/* Keywords (adjust based on your contact and services) */}
+        <meta
+          name="keywords"
+          content="contact, Taijiquan, Taijiquan Academy, Apeldoorn, Tai Chi, lessen, workshops, contactformulier"
+        />
 
-          {/* Canonical Link */}
-          <link rel="canonical" href="https://www.taijiquanacademy.nl/agenda" />
+        {/* Canonical Link */}
+        <link rel="canonical" href="https://www.taijiquanacademy.nl/contact" />
 
-          {/* Open Graph Tags for Social Media Sharing */}
-          <meta property="og:title" content="Agenda - Taijiquan Academy" />
-          <meta
-            property="og:description"
-            content="Bekijk de agenda van Taijiquan Academy voor de komende lessen, evenementen en workshops in Apeldoorn."
-          />
-          <meta
-            property="og:url"
-            content="https://www.taijiquanacademy.nl/agenda"
-          />
-          <meta property="og:type" content="website" />
+        {/* Open Graph Tags for Social Media Sharing */}
+        <meta property="og:title" content="Contact - Taijiquan Academy" />
+        <meta
+          property="og:description"
+          content="Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over lessen, workshops, of algemene informatie. Wij staan klaar om te helpen!"
+        />
+        <meta
+          property="og:url"
+          content="https://www.taijiquanacademy.nl/contact"
+        />
+        <meta property="og:type" content="website" />
 
-          {/* Structured Data (JSON-LD) for Search Engines */}
-          <script type="application/ld+json">
-            {`
-            {
-              "@context": "https://schema.org",
+        {/* Structured Data (JSON-LD) for Search Engines */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Contact - Taijiquan Academy",
+            "url": "https://www.taijiquanacademy.nl/contact",
+            "description": "Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over lessen, workshops, of algemene informatie. Wij staan klaar om te helpen.",
+            "mainEntityOfPage": {
               "@type": "WebPage",
-              "name": "Agenda - Taijiquan Academy",
-              "url": "https://www.taijiquanacademy.nl/agenda",
-              "description": "Bekijk de agenda van Taijiquan Academy voor de komende lessen, evenementen en workshops in Apeldoorn.",
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://www.taijiquanacademy.nl/agenda"
-              }
+              "@id": "https://www.taijiquanacademy.nl/contact"
             }
-            `}
-          </script>
-        </Helmet>
+          }
+          `}
+        </script>
+      </Helmet>
 
-        {/* Agenda Component */}
-        <Agenda />
-      </HelmetProvider>
-    </>
+      {/* Contact Component */}
+      <Contact />
+    </HelmetProvider>
   );
 }
 
-export default AgendaPage;
+export default ContactPage;
