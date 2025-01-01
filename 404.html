@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redirecting...</title>
-    <script>
-      // Get the current path from the URL
-      var pathname = window.location.pathname;
-
-      // Redirect to index.html and pass the path as a query parameter
-      window.location.replace("/index.html" + pathname);
-    </script>
   </head>
   <body>
-    Redirecting...
+    <script>
+      // This will redirect to index.html and allow the client-side routing to handle the path
+      window.location.replace("/index.html");
+    </script>
   </body>
 </html>
