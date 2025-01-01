@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import TarievenPage from "./pages/TarievenPage.jsx";
@@ -17,7 +17,7 @@ import AgendaPage from "./pages/AgendaPage.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tai-chi-academy">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
