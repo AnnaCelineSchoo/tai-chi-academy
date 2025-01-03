@@ -8,18 +8,21 @@ function Homepage() {
     <HelmetProvider>
       <Helmet>
         {/* Title Optimization */}
-        <title>Taijiquan Academy - Lessen en Workshops in Apeldoorn</title>
+        <title>
+          Taijiquan Academy - Tai Chi en Taijiquan Lessen en Workshops in
+          Apeldoorn
+        </title>
 
         {/* Meta Description with More Context and Keywords */}
         <meta
           name="description"
-          content="Taijiquan Academy biedt professionele Taijiquan lessen en workshops in Apeldoorn. Leer de kunst van Taijiquan met ervaren instructeurs in een rustgevende omgeving."
+          content="Taijiquan Academy in Apeldoorn biedt professionele Taijiquan (Tai Chi) lessen, workshops en privélessen. Verbeter je gezondheid, focus en energie met ervaren instructeurs in een rustige en inspirerende omgeving."
         />
 
         {/* Meta Keywords (secondary, less important now but still useful) */}
         <meta
           name="keywords"
-          content="Taijiquan, Taijiquan lessen, Taijiquan workshops, Apeldoorn, Taijiquan Academy, Tai Chi, gezondheid, vechtsport"
+          content="Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie"
         />
 
         {/* Canonical Link for SEO */}
@@ -28,11 +31,11 @@ function Homepage() {
         {/* Open Graph Meta Tags for Social Media Sharing */}
         <meta
           property="og:title"
-          content="Taijiquan Academy - Lessen en Workshops in Apeldoorn"
+          content="Taijiquan Academy - Taijiquan (Tai Chi) Lessen en Workshops in Apeldoorn"
         />
         <meta
           property="og:description"
-          content="Leer Taijiquan bij Taijiquan Academy in Apeldoorn. Professionele lessen en workshops voor alle niveaus."
+          content="Leer Taijiquan (tai chi) bij Taijiquan Academy in Apeldoorn. Professionele lessen en workshops voor alle niveaus."
         />
         <meta property="og:url" content="https://www.taijiquanacademy.nl/" />
         <meta property="og:type" content="website" />
@@ -53,7 +56,7 @@ function Homepage() {
             contactPoint: {
               "@type": "ContactPoint",
               contactType: "Customer Service",
-              telephone: "+31-123-456-789",
+              telephone: "",
               areaServed: "NL",
               availableLanguage: "Dutch",
             },
