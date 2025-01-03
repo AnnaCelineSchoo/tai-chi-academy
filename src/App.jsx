@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import TarievenPage from "./pages/TarievenPage.jsx";
@@ -17,17 +17,17 @@ import AgendaPage from "./pages/AgendaPage.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="/lessen" element={<LessenPage />} />
-          <Route path="/media" element={<MediaPage />} />
-          <Route path="/tarieven" element={<TarievenPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/mediaItem/:id" element={<MediaItemPage />} />
-          <Route path="/agenda" element={<AgendaPage />} />
+          <Route path="lessen" element={<LessenPage />} />
+          <Route path="media" element={<MediaPage />} />
+          <Route path="tarieven" element={<TarievenPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="mediaItem/:id" element={<MediaItemPage />} />
+          <Route path="agenda" element={<AgendaPage />} />
         </Route>
       </Routes>
     </Router>
