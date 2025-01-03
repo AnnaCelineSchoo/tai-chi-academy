@@ -8,4 +8,4 @@ function LessenPage() {
   );
 }
 
-export default Lessen;
+export default LessenPage;
