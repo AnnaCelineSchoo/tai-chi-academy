@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
   <url>
     <loc>https://www.taijiquanacademy.nl/</loc>
     <priority>1.0</priority>
     <lastmod>2024-12-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  
+  <!-- Lessen Page -->
   <url>
-    <loc>https://taijiquanacademy.nl/#/lessen</loc>
+    <loc>https://www.taijiquanacademy.nl/lessen</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  
+  <!-- Media Page -->
   <url>
-    <loc>https://taijiquanacademy.nl/#/media</loc>
+    <loc>https://www.taijiquanacademy.nl/media</loc>
     <priority>0.7</priority>
     <lastmod>2024-12-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  
+  <!-- Tarieven Page -->
   <url>
-    <loc>https://taijiquanacademy.nl/#/agenda</loc>
+    <loc>https://www.taijiquanacademy.nl/tarieven</loc>
     <priority>0.7</priority>
     <lastmod>2024-12-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  
+  <!-- Contact Page -->
   <url>
-    <loc>https://taijiquanacademy.nl/#/tarieven</loc>
-    <priority>0.7</priority>
-    <lastmod>2024-12-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://taijiquanacademy.nl/#/contact</loc>
+    <loc>https://www.taijiquanacademy.nl/contact</loc>
     <priority>0.8</priority>
     <lastmod>2024-12-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  
+  <!-- Agenda Page -->
+  <url>
+    <loc>https://www.taijiquanacademy.nl/agenda</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  
 </urlset>
