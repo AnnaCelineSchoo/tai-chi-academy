@@ -3,5 +3,37 @@
   <url>
     <loc>https://www.taijiquanacademy.nl/</loc>
     <priority>1.0</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://taijiquanacademy.nl/#/lessen</loc>
+    <priority>0.8</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://taijiquanacademy.nl/#/media</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://taijiquanacademy.nl/#/agenda</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://taijiquanacademy.nl/#/tarieven</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://taijiquanacademy.nl/#/contact</loc>
+    <priority>0.8</priority>
+    <lastmod>2024-12-29</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
