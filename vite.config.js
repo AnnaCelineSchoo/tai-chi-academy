@@ -9,7 +9,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["bootstrap"],
   },
-  base: isDevelopment ? "/" : "/tai-chi-academy/", // Use process.env-based environment detection
+  base: "/", // Use process.env-based environment detection
   build: {
     outDir: "dist", // Default Vite output directory
   },

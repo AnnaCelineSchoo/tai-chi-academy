@@ -9,9 +9,6 @@ import MediaItemPage from "./pages/MediaItemPage.jsx";
 import ScrollToTop from "./layouts/ScrollToTop.jsx";
 import AgendaPage from "./pages/AgendaPage.jsx";
 
-const isDevelopment = import.meta.env.DEV; // Check if in development mode
-const basename = isDevelopment ? "/" : "/tai-chi-academy/";
-
 // todo:
 // achtergrond contact niet goed
 // maak agenda met lestijden en eventuele wokshops die gepland zijn
@@ -19,10 +16,8 @@ const basename = isDevelopment ? "/" : "/tai-chi-academy/";
 // add some security for bots in the form upload
 
 function App() {
-  console.log("Environment:", import.meta.env);
-  console.log("Using basename:", basename);
   return (
-    <Router basename={basename}>
+    <Router basename="/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
