@@ -23,7 +23,7 @@ function Homepage() {
         {/* Meta Keywords (secondary, less important now but still useful) */}
         <meta
           name="keywords"
-          content="Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie, Qi Gong, Push Hands, Zelfverdediging"
+          content="Tai Chi Apeldoorn, Taijiquan Apeldoorn, Tai Chi lessen, Taijiquan workshops, Qi Gong training, Push Hands lessen, Zelfverdediging Apeldoorn, meditatie cursussen, Chinese martial arts, traditionele vechtkunst, gezondheid verbeteren, balans oefeningen, stressmanagement, innerlijke rust, flexibiliteit vergroten, Tai Chi voor beginners, gevorderde Tai Chi, workshops en evenementen Apeldoorn"
         />
 
         {/* Canonical Link for SEO */}

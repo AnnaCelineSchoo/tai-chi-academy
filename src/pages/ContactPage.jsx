@@ -6,18 +6,20 @@ function ContactPage() {
     <HelmetProvider>
       <Helmet>
         {/* Title for SEO */}
-        <title>Contact - Taijiquan Academy</title>
+        <title>
+          Contact - Taijiquan Academy Apeldoorn - Tai Chi Academie Apeldoorn
+        </title>
 
         {/* Meta Description */}
         <meta
           name="description"
-          content="Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over Tai Chi, Qi Gong, Meditatie en zelfverdediging lessen, workshops, of algemene informatie. Wij staan klaar om te helpen!"
+          content="Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over Tiajiquan (Tai Chi), Qi Gong, Meditatie, push hands en zelfverdediging lessen, evenementen of algemene informatie. Wij staan klaar om te helpen!"
         />
 
         {/* Keywords (adjust based on your contact and services) */}
         <meta
           name="keywords"
-          content="contact, Taijiquan, Taijiquan Academy, Tai Chi, Tai Chi Apeldoorn, Apeldoorn, Tai Chi, lessen, workshops, contactformulier, Qi Gong, Meditatie, zelfverdediging lessen"
+          content="contact, Tai Chi Apeldoorn, Taijiquan Apeldoorn, Tai Chi lessen, Taijiquan workshops, Qi Gong training, Push Hands lessen, Zelfverdediging Apeldoorn, meditatie cursussen, Chinese martial arts, traditionele vechtkunst, gezondheid verbeteren, balans oefeningen, stressmanagement, innerlijke rust, flexibiliteit vergroten, Tai Chi voor beginners, gevorderde Tai Chi, workshops en evenementen Apeldoorn"
         />
 
         {/* Canonical Link */}
@@ -44,7 +46,7 @@ function ContactPage() {
           {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Contact - Taijiquan Academy",
+            "name": "Contact - Taijiquan Academy - Tai Chi Academie",
             "url": "https://www.taijiquanacademy.nl/contact",
             "description": "Neem contact op met Taijiquan Academy in Apeldoorn voor vragen over Tai Chi, Qi Gong, Meditatie en zelfverdediging lessen, workshops, of algemene informatie. Wij staan klaar om te helpen!",
             "mainEntityOfPage": {

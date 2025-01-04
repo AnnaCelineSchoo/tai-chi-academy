@@ -32,12 +32,12 @@ function MediaItemPage() {
       <HelmetProvider>
         <Helmet>
           {/* Title for SEO */}
-          <title>{`${MediaItem.title} - Taijiquan Academy`}</title>
+          <title>{`${MediaItem.title} - Taijiquan Academy Apeldoorn - Tai Chi Academie Apeldoorn`}</title>
 
           {/* Meta Description */}
           <meta
             name="description"
-            content={`Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Taijiquan en onze evenementen, lessen, en workshops.`}
+            content={`Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Tai Chi en onze evenementen, lessen, en workshops.`}
           />
 
           {/* Keywords (adjust based on the media content) */}
@@ -55,11 +55,11 @@ function MediaItemPage() {
           {/* Open Graph Tags for Social Media Sharing */}
           <meta
             property="og:title"
-            content={`${MediaItem.title} - Taijiquan Academy`}
+            content={`${MediaItem.title} - Taijiquan Academy - Tai Chi Academie`}
           />
           <meta
             property="og:description"
-            content={`Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Taijiquan en onze evenementen, lessen, en workshops.`}
+            content={`Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Tai Chi (taijiquan), Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn.`}
           />
           <meta
             property="og:url"
@@ -73,8 +73,8 @@ function MediaItemPage() {
             {
               "@context": "https://schema.org",
               "@type": "VideoObject",
-              "name": "${MediaItem.title}",
-              "description": "Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Taijiquan en onze evenementen, lessen, en workshops.",
+              "name": "${MediaItem.title} - Taijiquan Academy - Tai Chi Academie",
+              "description": "Bekijk het media-item: ${MediaItem.title} bij Taijiquan Academy. Leer meer over Tai Chi (taijiquan), Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn.",
               "thumbnailUrl": "${MediaItem.thumbnail}",
               "contentUrl": "${MediaItem.mediaUrl}",
               "uploadDate": "${MediaItem.uploadDate}",

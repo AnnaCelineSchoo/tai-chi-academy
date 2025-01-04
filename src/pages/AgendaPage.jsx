@@ -8,18 +8,18 @@ function AgendaPage() {
       <HelmetProvider>
         <Helmet>
           {/* Title for SEO */}
-          <title>Agenda - Taijiquan Academy</title>
+          <title>Agenda - Taijiquan Academy - Tai Chi Academie</title>
 
           {/* Meta Description */}
           <meta
             name="description"
-            content="Bekijk de agenda van Taijiquan Academy voor de komende Tai Chi, Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn."
+            content="Bekijk de agenda van Taijiquan Academy voor de komende Tiajiquan (Tai Chi), Qi Gong, Meditatie, push hands en zelfverdediging lessen, evenementen en workshops in Apeldoorn."
           />
 
           {/* Keywords (less important but still useful for SEO) */}
           <meta
             name="keywords"
-            content="Taijiquan evenementen, Taijiquan workshops,Tai Chi lessen, Tai Chi evenementen, Tai Chi workshops, agenda,, Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie, Qi Gong, Push Hands, Zelfverdediging"
+            content="Agenda, Tai Chi Apeldoorn, Taijiquan Apeldoorn, Tai Chi lessen, Taijiquan workshops, Qi Gong training, Push Hands lessen, Zelfverdediging Apeldoorn, meditatie cursussen, Chinese martial arts, traditionele vechtkunst, gezondheid verbeteren, balans oefeningen, stressmanagement, innerlijke rust, flexibiliteit vergroten, Tai Chi voor beginners, gevorderde Tai Chi, workshops en evenementen Apeldoorn"
           />
 
           {/* Canonical Link */}
@@ -32,7 +32,7 @@ function AgendaPage() {
           />
           <meta
             property="og:description"
-            content="Bekijk de agenda van Taijiquan Academy voor de komende tai chi, Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn."
+            content="Bekijk de agenda van Taijiquan Academy voor de komende Tai Chi (taijiquan), Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn."
           />
           <meta
             property="og:url"
@@ -46,7 +46,7 @@ function AgendaPage() {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Agenda - Taijiquan Academy",
+              "name": "Agenda - Taijiquan Academy - Tai Chi Academie",
               "url": "https://www.taijiquanacademy.nl/agenda",
               "description": "Bekijk de agenda van Taijiquan Academy voor de komende komende tai chi, Qi Gong, Meditatie en zelfverdediging lessen, evenementen en workshops in Apeldoorn.",
               "mainEntityOfPage": {
