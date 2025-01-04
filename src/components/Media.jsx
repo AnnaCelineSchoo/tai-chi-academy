@@ -57,12 +57,12 @@ function Media() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Media</h2>
               <p className="text-white-50">
-                Welkom op onze Media-pagina, waar je alles kunt vinden over de
-                spannende wereld van taijiquan evenementen! Hier delen we
-                informatie over aankomende competities, workshops, demonstraties
-                en andere speciale evenementen. Of je nu een beginnende
-                beoefenaar bent die zijn vaardigheden wil verbeteren of een
-                ervaren taijiquan-liefhebber die op zoek is naar nieuwe
+                Welkom op de Media-pagina van Taijiquan Academy, waar je alles
+                kunt vinden over de spannende wereld van tai chi evenementen!
+                Hier delen we informatie over aankomende competities, workshops,
+                demonstraties en andere speciale evenementen. Of je nu een
+                beginnende beoefenaar bent die zijn vaardigheden wil verbeteren
+                of een ervaren tai chi liefhebber die op zoek is naar nieuwe
                 uitdagingen, deze pagina biedt jou de laatste updates. We
                 moedigen iedereen aan om deel te nemen, te leren en zich te
                 verdiepen in de rijke traditie van taijiquan door middel van
@@ -82,7 +82,9 @@ function Media() {
       <div className="container my-5">
         {/* Embedded YouTube Video */}
         <div className="text-center mb-5">
-          <h2 className="text-gray">Ervaar taijiquan Academy</h2>
+          <h2 className="text-gray">
+            Ervaar taijiquan Academy - Tai Chi Academie
+          </h2>
           <div className="video-container">
             <iframe
               src="https://www.youtube.com/embed/3pNW8sTTxhI?si=V1CgKG0JM-S2hcXb"
@@ -93,7 +95,7 @@ function Media() {
           </div>
         </div>
         {/* Subsections */}
-        <h2 className="text-center mb-5">taijiquan Evenementen</h2>
+        <h2 className="text-center mb-5">Tai Chi Evenementen</h2>
         <div className="row text-center mb-5">
           <div className="col-md-6 mb-4">
             <h3>Competities</h3>

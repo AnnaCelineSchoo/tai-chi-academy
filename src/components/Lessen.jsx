@@ -9,14 +9,14 @@ function Lessen() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Lessen</h2>
               <p className="text-white-50">
-                Onze tai chi lessen zijn zorgvuldig opgebouwd, met verschillende
-                onderdelen die elke les interessant en uitdagend maken. Naast de
-                verschillende stijlen van taijiquan, zoals Chen, Yang en Wudang,
-                komen ook Push Hands, zelfverdediging en Qi Gong aan bod. Deze
-                afwisseling zorgt ervoor dat je iedere les blijft groeien en
-                verbeteren. Motivatie en inzet zijn essentieel, niet alleen voor
-                vooruitgang in taijiquan, maar ook in je persoonlijke
-                ontwikkeling en dagelijkse leven.
+                Onze tai chi lessen in Apeldoorn zijn zorgvuldig opgebouwd, met
+                verschillende onderdelen die elke les interessant en uitdagend
+                maken. Naast de verschillende stijlen van taijiquan, zoals Chen
+                en Yang, komen ook Push Hands, zelfverdediging en Qi Gong aan
+                bod. Deze afwisseling zorgt ervoor dat je iedere les blijft
+                groeien en verbeteren. Motivatie en inzet zijn essentieel, niet
+                alleen voor vooruitgang in taijiquan, maar ook in je
+                persoonlijke ontwikkeling en dagelijkse leven.
               </p>
               <img
                 className="img-fluid"
@@ -196,18 +196,18 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-right">
                     <h4 class="text-white">Zelfverdediging</h4>
                     <p class="mb-0 text-white-50">
-                      taijiquan biedt niet alleen fysieke kracht en
-                      flexibiliteit, maar ook waardevolle technieken voor
-                      zelfverdediging. De langzame, gecontroleerde bewegingen
-                      van taijiquan kunnen in een praktische context worden
-                      toegepast om jezelf te verdedigen tegen verschillende
-                      aanvallen. Door de principes van balans, soepelheid en het
-                      gebruik van interne kracht te combineren, leer je hoe je
-                      de energie van je tegenstander kunt omleiden en
-                      neutraliseren. Het uitgangspunt in taijiquan
-                      zelfverdediging is niet om geweld te gebruiken, maar om de
-                      aanval te transformeren en de balans van de tegenstander
-                      te verstoren. Deze technieken helpen je niet alleen in
+                      Tai Chi biedt niet alleen fysieke kracht en flexibiliteit,
+                      maar ook waardevolle technieken voor zelfverdediging. De
+                      langzame, gecontroleerde bewegingen van taijiquan kunnen
+                      in een praktische context worden toegepast om jezelf te
+                      verdedigen tegen verschillende aanvallen. Door de
+                      principes van balans, soepelheid en het gebruik van
+                      interne kracht te combineren, leer je hoe je de energie
+                      van je tegenstander kunt omleiden en neutraliseren. Het
+                      uitgangspunt in taijiquan zelfverdediging is niet om
+                      geweld te gebruiken, maar om de aanval te transformeren en
+                      de balans van de tegenstander te verstoren. Deze
+                      technieken helpen je niet alleen in
                       zelfverdedigingssituaties, maar bevorderen ook
                       zelfvertrouwen, mentale rust en een betere
                       lichaamsbewustzijn. Het is een krachtige manier om zowel
@@ -299,14 +299,14 @@ function Lessen() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Kleding</h2>
               <p className="text-white-50">
-                In de taijiquan-praktijk wordt vaak traditionele kleding
+                Tijdens de tai chi lessen wordt vaak traditionele kleding
                 gedragen, die speciaal is ontworpen voor comfort en
                 bewegingsvrijheid. Deze kleding bestaat meestal uit een lichte,
                 ademende stof die het mogelijk maakt om de langzame, vloeiende
                 bewegingen van de verschillende stijlen van taijiquan, zoals de
-                Chen-, Yang-, Wu- en Sun-stijl, vrij en ongestoord uit te
-                voeren. Traditionele Tai Chi-kleding bestaat vaak uit een losse
-                broek en een bovenstuk met een rechte snit, die het lichaam niet
+                Chen- en Yang-stijl, vrij en ongestoord uit te voeren.
+                Traditionele Tai Chi-kleding bestaat vaak uit een losse broek en
+                een bovenstuk met een rechte snit, die het lichaam niet
                 belemmert. De kleding bevordert de ontspanning en zorgt ervoor
                 dat de beoefenaar zich volledig kan concentreren op de techniek,
                 ademhaling en balans. De keuze voor traditionele kleding draagt

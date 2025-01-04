@@ -36,17 +36,17 @@ function Home() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Welkom bij taijiquan Academy</h2>
               <p className="text-white-50">
-                Bij taijiquan Academie bevorderen we gezondheid, innerlijke rust
-                en vitaliteit door de oude kunst van taijiquan. Of je nu begint
-                om balans te vinden of je praktijk wilt verdiepen, wij bieden
-                een gastvrije ruimte voor iedereen. taijiquan combineert zachte
-                bewegingen, ademhaling en mindfulness om stress te verminderen,
-                de gezondheid te verbeteren en de energie van je lichaam te
-                versterken. Onze ervaren instructeur begeleid je in zowel
-                beginners- als gevorderdenlessen. Sluit je aan bij onze
-                holistische gemeenschap en ontdek de diepere filosofie van Tai
-                Chi. Begin je reis naar rust en energie bij de taijiquan
-                Academie.
+                Bij taijiquan Academie in Apeldoorn bevorderen we gezondheid,
+                innerlijke rust en vitaliteit door de oude kunst van taijiquan.
+                Of je nu begint om balans te vinden of je praktijk wilt
+                verdiepen, wij bieden een gastvrije ruimte voor iedereen.
+                taijiquan combineert zachte bewegingen, ademhaling en
+                mindfulness om stress te verminderen, de gezondheid te
+                verbeteren en de energie van je lichaam te versterken. Onze
+                ervaren instructeur begeleid je in zowel beginners- als
+                gevorderdenlessen. Sluit je aan bij onze holistische gemeenschap
+                en ontdek de diepere filosofie van Tai Chi. Begin je reis naar
+                rust en energie bij de taijiquan Academie in Apeldoorn.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Home() {
                 <p className="text-black-50 mb-0">
                   Jarenlang heb ik met plezier verschillende vechtsporten
                   beoefend. Tegenwoordig richt ik mij met passie op het
-                  verspreiden van taijiquan in het midden van Nederland. Ik
+                  verspreiden van tai chi in het midden van Nederland. Ik
                   beschouw taijiquan als een perfecte balans tussen kracht en
                   elegantie. Het verbetert zowel het fysieke als het mentale
                   welzijn door langzame, gecontroleerde bewegingen die de geest

@@ -59,7 +59,8 @@ function Contact() {
             <div className="col-md-10 col-lg-8 text-center">
               <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
               <h2 className="text-white mb-5">
-                Schrijf je in voor je eerste gratis proefles!
+                Schrijf je in voor je eerste gratis proefles bij Tiajiquan
+                Academy in Apeldoorn!
               </h2>
 
               <form
@@ -183,7 +184,7 @@ function Contact() {
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Address</h4>
+                  <h4 class="text-uppercase m-0">Adres</h4>
                   <hr class="my-4 mx-auto" />
                   <div class="small text-black-50">
                     Mariannalaan 19a, 7316 DS Apeldoorn
@@ -209,7 +210,7 @@ function Contact() {
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Phone</h4>
+                  <h4 class="text-uppercase m-0">Telefoon</h4>
                   <hr class="my-4 mx-auto" />
                   <div class="small text-black-50">...</div>
                 </div>
