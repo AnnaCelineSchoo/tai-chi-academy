@@ -23,7 +23,7 @@ function Homepage() {
         {/* Meta Keywords (secondary, less important now but still useful) */}
         <meta
           name="keywords"
-          content="Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie"
+          content="Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie, Qi Gong, Push Hands, Zelfverdediging"
         />
 
         {/* Canonical Link for SEO */}
