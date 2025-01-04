@@ -9,19 +9,19 @@ function Lessen() {
             <div className="col-lg-8">
               <h2 className="text-white mb-4">Lessen</h2>
               <p className="text-white-50">
-                Onze taijiquan lessen zijn zorgvuldig opgebouwd, met
-                verschillende onderdelen die elke les interessant en uitdagend
-                maken. Naast de verschillende stijlen van taijiquan, zoals Chen,
-                Yang en Wudang, komen ook Push Hands, zelfverdediging en Qi Gong
-                aan bod. Deze afwisseling zorgt ervoor dat je iedere les blijft
-                groeien en verbeteren. Motivatie en inzet zijn essentieel, niet
-                alleen voor vooruitgang in taijiquan, maar ook in je
-                persoonlijke ontwikkeling en dagelijkse leven.
+                Onze tai chi lessen zijn zorgvuldig opgebouwd, met verschillende
+                onderdelen die elke les interessant en uitdagend maken. Naast de
+                verschillende stijlen van taijiquan, zoals Chen, Yang en Wudang,
+                komen ook Push Hands, zelfverdediging en Qi Gong aan bod. Deze
+                afwisseling zorgt ervoor dat je iedere les blijft groeien en
+                verbeteren. Motivatie en inzet zijn essentieel, niet alleen voor
+                vooruitgang in taijiquan, maar ook in je persoonlijke
+                ontwikkeling en dagelijkse leven.
               </p>
               <img
                 className="img-fluid"
-                src="https://shaolin-vechtkunst.nl/wp-content/uploads/2021/09/IMG_20210913_183600-1200x591.jpg"
-                alt=""
+                src="images/lessen/groepsfoto_Taichi_taijiquan_lessen.jpg"
+                alt="Groep taijiquan, tai chi beoefenaars tijdens een les met Push Hands, Qi Gong en zelfverdediging, Taijiquan lessen bij Taijiquan Academy Apeldoorn, Tai chi Academie Apeldoorn"
               />
               <div>
                 <Link className="btn btn-primary mt-5" to="/contact">
@@ -41,9 +41,10 @@ function Lessen() {
               <div className="col-md-6 mb-4">
                 <h3>Tai Ji Quan</h3>
                 <p>
-                  In Apeldoorn beoefenen we verschillende stijlen van taijiquan,
-                  zoals de Chen, Wudang, Wu en Yang stijlen. Daarnaast trainen
-                  we ook in Shaolin Rou Quan, oftewel Soft Boxing.
+                  In Apeldoorn beoefenen we verschillende stijlen van tai chi
+                  (taijiquan), zoals de Chen, Wudang, Wu en Yang stijlen.
+                  Daarnaast trainen we ook in Shaolin Rou Quan, oftewel Soft
+                  Boxing.
                 </p>
               </div>
               <div className="col-md-6 mb-4">
@@ -58,9 +59,9 @@ function Lessen() {
               <div className="col-md-6 mb-4">
                 <h3>Zelfverdediging</h3>
                 <p>
-                  taijiquan wordt ook gebruikt als een effectieve vorm van
-                  zelfverdediging door middel van gecontroleerde bewegingen en
-                  het benutten van de kracht van de tegenstander. We leren
+                  Tai Chi (taijiquan) wordt ook gebruikt als een effectieve vorm
+                  van zelfverdediging door middel van gecontroleerde bewegingen
+                  en het benutten van de kracht van de tegenstander. We leren
                   technieken die zowel praktisch als krachtig zijn in een
                   verdedigingssituatie.
                 </p>
@@ -81,8 +82,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaolin-vechtkunst.nl%2Fwp-content%2Fuploads%2F2014%2F07%2FIMG_20191119_135556.jpg&f=1&nofb=1&ipt=c4852d70330a40e38eaac7e43c8825d7aab54d4243f62303eaab78eba812aff5&ipo=images"
-                alt="..."
+                src="images/lessen/Tai Chi Ongewapend taijiquan vorm.jpg"
+                alt="Tai Chi, taijiquan ongewapend training met gecontroleerde, langzame bewegingen gericht op balans, innerlijke kracht en energie (Qi) beheersing"
               />
             </div>
             <div class="col-lg-6">
@@ -91,7 +92,7 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-left">
                     <h4 class="text-white">Tai Ji Quan Ongewapend</h4>
                     <p class="mb-0 text-white-50">
-                      Tai Ji Quan Ongewapend is de basis van veel taijiquan
+                      Tai Chi Ongewapend is de basis van veel taijiquan
                       oefeningen en vormt de essentie van de discipline. Hier
                       staan de langzame, gecontroleerde bewegingen centraal,
                       waarbij kracht en flexibiliteit in balans zijn.
@@ -113,8 +114,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA4L2ZEQFpmU%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=69e27c56831da722814cb151887de39e1c888a3eb37ff73e96ebf0eae8226587&ipo=images"
-                alt="..."
+                src="images/lessen/Taijiquan Gewapend lessen Tai Chi Apeldoorn.jpg"
+                alt="Tai Chi gewapend training in Apeldoorn met traditionele wapens zoals zwaard, staf en speer, pudao, dao en waaier gericht op balans, kracht en innerlijke focus"
               />
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -123,7 +124,7 @@ function Lessen() {
                   <div class="project-text w-100 my-auto text-center text-lg-right">
                     <h4 class="text-white">Tai Ji Quan Gewapend</h4>
                     <p class="mb-0 text-white-50">
-                      Tai Ji Quan Gewapend voegt een extra dimensie toe aan de
+                      Tai Chi Gewapend voegt een extra dimensie toe aan de
                       beoefening van taijiquan door het gebruik van traditionele
                       wapens, zoals de zwaard, staf en speer. In deze gevorderde
                       vorm worden de langzame, vloeiende bewegingen gecombineerd
@@ -148,8 +149,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FL_9iz0spMs0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=c37f566649ccc472b83a1d0f496e6290b973674949054f75bf1ea74302b94d1b&ipo=images"
-                alt="push hands picture"
+                src="images/lessen/Push Hands tai chi taijiquan Apeldoorn.jpg"
+                alt="Push Hands training in Tai Chi bij Taijiquan Academy in Apeldoorn, gericht op balans, gevoeligheid en energiebeheer"
               />
             </div>
             <div class="col-lg-6">
@@ -185,8 +186,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqxqsXObsqog%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=34612fe57b3a182a96b51f8b4bac30c26417967141c2c1054a51719ac5bc9324&ipo=images"
-                alt="..."
+                src="images/lessen/Self defense zelfverdediging tai chi taijiquan Academy Apeldoorn.jpg"
+                alt="Zelfverdediging training, toepassing van Tai Chi bewegingen bij de Taijiquan Academy Apeldoorn, gericht op balans, interne kracht en het neutraliseren van aanvallen"
               />
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -222,8 +223,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FS3PYzolrgi4%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=f23b490bfa9876886270f57240693d0c122467f6e657f6b50d67462cab053adb&ipo=images"
-                alt="..."
+                src="images/lessen/Qi gong taijiquan Academy Apeldoorn.jpg"
+                alt="Qi Gong oefeningen voor balans en gezondheid, gericht op het bevorderen van levensenergie (Qi) door ademhaling, beweging en meditatie bij taijiquan Academy in Apeldoorn - tai chi academie Apeldoorn"
               />
             </div>
             <div class="col-lg-6">
@@ -258,8 +259,8 @@ function Lessen() {
             <div class="col-lg-6">
               <img
                 class="img-fluid-lessen"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fvwgdbdj2qZ0%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=218de3d5ca9e6e21a61d393873d3d608f6e6d677b74ec911fa48a72ef7db202c&ipo=images"
-                alt="..."
+                src="images/lessen/mediatie tai chi taijiquan academy Apeldoorn.jpg"
+                alt="Meditatie sessie tijdens Tai Chi lessen bij Taijiquan Academy Apeldoorn, gericht op het bereiken van innerlijke rust, balans en mentale helderheid"
               />
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -325,8 +326,8 @@ function Lessen() {
 
               <img
                 className="img-fluid"
-                src="https://media.licdn.com/dms/image/sync/v2/D4E27AQFF0KYjke6Ufw/articleshare-shrink_800/articleshare-shrink_800/0/1725227935294?e=2147483647&v=beta&t=Zne5ELLCJ-ZHeTk3uD1FJmU_ddomMU-WZMdoBK5zjlg"
-                alt=""
+                src="images/lessen/tai chi ongewapend lessen taijiquan Academy Apeldoorn.jpg"
+                alt="Traditionele taijiquan kleding voor comfort en bewegingsvrijheid, geschikt voor de Chen-, Yang-, Wu- en Sun-stijl van Tai Chi"
               />
 
               <h2 className="text-white mb-4 mt-4">Algemene informatie</h2>
