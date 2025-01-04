@@ -54,7 +54,7 @@ function Home() {
             <img
               className="img-fluid"
               src="images/logos/Taiji-logo-blauw-zwart.png"
-              alt="meditating monk"
+              alt="Tai chi academie Apeldoorn logo - Taijiquan Academy Apeldoorn logo"
             />
           </div>
         </div>
@@ -80,7 +80,7 @@ function Home() {
               <img
                 className="img-fluid mb-3 mb-lg-0"
                 src="images/D.Wolff_.jpg"
-                alt="..."
+                alt="Tai chi academie Apeldoorn instructeur - Taijiquan Academy Apeldoorn instructeur"
               />
             </div>
             <div className="col-xl-4 col-lg-5">
