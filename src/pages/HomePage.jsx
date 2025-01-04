@@ -9,14 +9,15 @@ function Homepage() {
       <Helmet>
         {/* Title Optimization */}
         <title>
-          Taijiquan Academy - Tai Chi, Qi Gong, Push Hands, Zelfverdediging en
-          Meditatie Lessen en Workshops in Apeldoorn - volg een gratis proefles!
+          Taijiquan Academy Apeldoorn - Tai Chi, Qi Gong, Push Hands,
+          Zelfverdediging en Meditatie Lessen en Workshops in Apeldoorn - volg
+          een gratis proefles! - Tai Chi Academie Apeldoorn
         </title>
 
         {/* Meta Description with More Context and Keywords */}
         <meta
           name="description"
-          content="Taijiquan Academy in Apeldoorn biedt professionele Taijiquan (Tai Chi) lessen, workshops en privélessen. Verbeter je gezondheid, focus en energie met ervaren instructeurs in een rustige en inspirerende omgeving."
+          content="Taijiquan Academy in Apeldoorn biedt professionele Taijiquan (Tai Chi), Qi Gong, Push Hands, Zelfverdediging en Meditatie lessen, workshops en privélessen. Verbeter je gezondheid, focus en energie met ervaren instructeurs in een rustige en inspirerende omgeving."
         />
 
         {/* Meta Keywords (secondary, less important now but still useful) */}
@@ -31,11 +32,13 @@ function Homepage() {
         {/* Open Graph Meta Tags for Social Media Sharing */}
         <meta
           property="og:title"
-          content="Taijiquan Academy - Taijiquan (Tai Chi) Lessen en Workshops in Apeldoorn"
+          content="Taijiquan Academy Apeldoorn - Tai Chi, Qi Gong, Push Hands,
+          Zelfverdediging en Meditatie Lessen en Workshops in Apeldoorn - volg
+          een gratis proefles! - Tai Chi Academie Apeldoorn"
         />
         <meta
           property="og:description"
-          content="Leer Taijiquan (tai chi) bij Taijiquan Academy in Apeldoorn. Professionele lessen en workshops voor alle niveaus."
+          content="Leer Taijiquan (Tai Chi), Qi Gong, Push Hands, Zelfverdediging en Meditatie bij Taijiquan Academy in Apeldoorn. Professionele lessen, privélessen en workshops voor alle niveaus."
         />
         <meta property="og:url" content="https://www.taijiquanacademy.nl/" />
         <meta property="og:type" content="website" />
@@ -45,7 +48,7 @@ function Homepage() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Taijiquan Academy",
+            name: "Taijiquan Academy- Tai Chi Academie",
             url: "https://www.taijiquanacademy.nl/",
             logo: "https://www.taijiquanacademy.nl/images/logos/Taiji-logo-blauw-zwart.png",
             sameAs: [

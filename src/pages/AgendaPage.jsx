@@ -19,7 +19,7 @@ function AgendaPage() {
           {/* Keywords (less important but still useful for SEO) */}
           <meta
             name="keywords"
-            content="Tai Chi, Taijiquan, Taijiquan lessen, Taijiquan evenementen, Taijiquan workshops,Tai Chi lessen, Tai Chi evenementen, Tai Chi workshops, agenda, Apeldoorn, Tai Chi"
+            content="Taijiquan evenementen, Taijiquan workshops,Tai Chi lessen, Tai Chi evenementen, Tai Chi workshops, agenda,, Tai Chi, Taijiquan, Taijiquan lessen, Tai Chi Lessen, Tai Chi Apeldoorn, Taijiquan workshops, Tai Chi workshops, Apeldoorn, Taijiquan Academy, Tai Chi, Tai Chi Academy, Tai Chi Academie, gezondheid, vechtsport, balans, meditatie, Qi Gong, Push Hands, Zelfverdediging"
           />
 
           {/* Canonical Link */}
