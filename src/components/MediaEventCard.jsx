@@ -8,7 +8,7 @@ function MediaEventCard({ mediaItem, mediaItemIndex }) {
           <img
             src={mediaItem.image}
             className="card-img-top"
-            alt="Activity 1"
+            alt={mediaItem.title}
           />
           <div className="card-body">
             <h5 className="card-title">{mediaItem.title}</h5>

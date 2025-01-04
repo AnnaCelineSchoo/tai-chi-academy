@@ -55,8 +55,8 @@ function Navbar() {
       <div className="container px-4 px-lg-5">
         <img
           className="navbar-logo"
-          src="images/logos/Taiji-logo-wit.png"
-          alt="taichi Academy Logo"
+          src="/images/logos/Taiji-logo-wit.png"
+          alt="Tai chi academie Apeldoorn logo - Taijiquan Academy Apeldoorn logo"
         />
         <Link className="navbar-brand" to="/">
           Taijiquan Academy

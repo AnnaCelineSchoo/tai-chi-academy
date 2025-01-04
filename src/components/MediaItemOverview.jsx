@@ -29,7 +29,7 @@ function MediaItemOverview({ mediaItem }) {
                   <img
                     className="img-fluid mt-5"
                     src={mediaItem.image}
-                    alt=""
+                    alt={mediaItem.title}
                   />
                 </div>
               )}

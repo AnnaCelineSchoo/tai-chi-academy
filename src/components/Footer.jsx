@@ -38,8 +38,8 @@ function Footer() {
         <div className="image-wrapper-footer">
           <img
             className="img-fluid"
-            src="images/logos/Taiji-logo-rood.png"
-            alt="meditating monk"
+            src="/images/logos/Taiji-logo-rood.png"
+            alt="Tai chi academie Apeldoorn logo - Taijiquan Academy Apeldoorn logo"
           />
         </div>
       </footer>
