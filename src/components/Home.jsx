@@ -75,7 +75,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section class="projects-section bg-light" id="projects">
+      <section className="projects-section bg-light" id="projects">
         <div className="container px-4 px-lg-5">
           <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
             <div className="col-xl-8 col-lg-7">
