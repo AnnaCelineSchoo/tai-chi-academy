@@ -136,7 +136,7 @@ function Contact() {
                     id="submitButton"
                     type="submit"
                   >
-                    Submit
+                    Versturen
                   </button>
                 </div>
               </form>
@@ -162,10 +162,9 @@ function Contact() {
               alt="locatie tai chi academie taijiquan academy Mariannalaan 19a, 7316 DS Apeldoorn"
             />
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9776.66198371177!2d5.958902!3d52.222211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4a4945fc5402545!2sVechtsport%3A+Shaolin+Kung+Fu+Apeldoorn!5e0!3m2!1snl!2snl!4v1412235104744"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4525.98201457416!2d5.955960392312046!3d52.222211557816266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7c7c46f964c79%3A0x1385e3907c5916b8!2sTaijiquan%20Academy!5e0!3m2!1snl!2snl!4v1736060790258!5m2!1snl!2snl"
               width="100%"
               height="450"
-              frameBorder="0"
               style={{
                 border: 0,
                 borderRadius: "10px",
