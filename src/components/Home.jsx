@@ -16,7 +16,7 @@ function Home() {
         <div className="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
           <div className="d-flex justify-content-center">
             <div className="text-center">
-              <h1 className="mx-auto my-0 text-uppercase">Taijiquan Academy</h1>
+              <h1 className="mx-auto my-0 text-uppercase">Tai Chi Academie</h1>
               <h2 className="text-white-50 mx-auto mt-2 mb-5">
                 Empowering Mind, Body, and Spirit Through the Art of taijiquan
               </h2>
@@ -34,7 +34,7 @@ function Home() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Welkom bij taijiquan Academy</h2>
+              <h2 className="text-white mb-4">Welkom bij Tai Chi Academie</h2>
               <p className="text-white-50">
                 Bij taijiquan Academie in Apeldoorn bevorderen we gezondheid,
                 innerlijke rust en vitaliteit door de oude kunst van taijiquan.
@@ -61,7 +61,7 @@ function Home() {
         <div className="container my-5 ">
           {/* Embedded YouTube Video */}
           <div className="text-center mb-5">
-            <h2 className="text-white">Ervaar taijiquan Academy</h2>
+            <h2 className="text-white">Ervaar Tai Chi Academie</h2>
             <div className="video-container">
               <iframe
                 src="https://www.youtube.com/embed/3pNW8sTTxhI?si=V1CgKG0JM-S2hcXb"

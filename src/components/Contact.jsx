@@ -59,8 +59,8 @@ function Contact() {
             <div className="col-md-10 col-lg-8 text-center">
               <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
               <h2 className="text-white mb-5">
-                Schrijf je in voor je eerste gratis proefles bij Tiajiquan
-                Academy in Apeldoorn!
+                Schrijf je in voor je eerste gratis Tai Chi proefles bij
+                Tiajiquan Academy in Apeldoorn!
               </h2>
 
               <form
@@ -152,7 +152,7 @@ function Contact() {
           <p className="text-black-50">
             De locatie voor de tai chi lessen is de sporthal bij de Mariannalaan
             19a, 7316 DS Apeldoorn. U kunt het pad inlopen bij het blauwe bord.
-            Achter dit bord bevindt zich de gymzaal waar de taijiquan lessen
+            Achter dit bord bevindt zich de gymzaal waar de tai chi lessen
             plaatsvindene. De foto hieronder laat dit zien.
           </p>
           <div className="map-container">

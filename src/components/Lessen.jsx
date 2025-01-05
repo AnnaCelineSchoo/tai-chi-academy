@@ -7,16 +7,16 @@ function Lessen() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Lessen</h2>
+              <h2 className="text-white mb-4">Tai Chi Lessen</h2>
               <p className="text-white-50">
-                Onze tai chi lessen in Apeldoorn zijn zorgvuldig opgebouwd, met
-                verschillende onderdelen die elke les interessant en uitdagend
-                maken. Naast de verschillende stijlen van taijiquan, zoals Chen
-                en Yang, komen ook Push Hands, zelfverdediging en Qi Gong aan
-                bod. Deze afwisseling zorgt ervoor dat je iedere les blijft
-                groeien en verbeteren. Motivatie en inzet zijn essentieel, niet
-                alleen voor vooruitgang in taijiquan, maar ook in je
-                persoonlijke ontwikkeling en dagelijkse leven.
+                Onze taijiquan lessen in Apeldoorn zijn zorgvuldig opgebouwd,
+                met verschillende onderdelen die elke les interessant en
+                uitdagend maken. Naast de verschillende stijlen van taijiquan,
+                zoals Chen en Yang, komen ook Push Hands, zelfverdediging en Qi
+                Gong aan bod. Deze afwisseling zorgt ervoor dat je iedere les
+                blijft groeien en verbeteren. Motivatie en inzet zijn
+                essentieel, niet alleen voor vooruitgang in taijiquan, maar ook
+                in je persoonlijke ontwikkeling en dagelijkse leven.
               </p>
               <img
                 className="img-fluid"
@@ -39,12 +39,11 @@ function Lessen() {
             <h2 className="text-center mb-5">Wat bieden wij?</h2>
             <div className="row text-center mb-5">
               <div className="col-md-6 mb-4">
-                <h3>Tai Ji Quan</h3>
+                <h3>Tai Chi Quan</h3>
                 <p>
-                  In Apeldoorn beoefenen we verschillende stijlen van tai chi
-                  (taijiquan), zoals de Chen, Wudang, Wu en Yang stijlen.
-                  Daarnaast trainen we ook in Shaolin Rou Quan, oftewel Soft
-                  Boxing.
+                  In Apeldoorn beoefenen we verschillende stijlen van taijiquan,
+                  zoals de Chen, Wudang, Wu en Yang stijlen. Daarnaast trainen
+                  we ook in Shaolin Rou Quan, oftewel Soft Boxing.
                 </p>
               </div>
               <div className="col-md-6 mb-4">
@@ -90,7 +89,7 @@ function Lessen() {
               <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Tai Ji Quan Ongewapend</h4>
+                    <h4 class="text-white">Tai Chi Quan Ongewapend</h4>
                     <p class="mb-0 text-white-50">
                       Tai Chi Ongewapend is de basis van veel taijiquan
                       oefeningen en vormt de essentie van de discipline. Hier
@@ -122,7 +121,7 @@ function Lessen() {
               <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Tai Ji Quan Gewapend</h4>
+                    <h4 class="text-white">Tai Chi Quan Gewapend</h4>
                     <p class="mb-0 text-white-50">
                       Tai Chi Gewapend voegt een extra dimensie toe aan de
                       beoefening van taijiquan door het gebruik van traditionele
@@ -297,7 +296,7 @@ function Lessen() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Kleding</h2>
+              <h2 className="text-white mb-4">Tai Chi Kleding</h2>
               <p className="text-white-50">
                 Tijdens de tai chi lessen wordt vaak traditionele kleding
                 gedragen, die speciaal is ontworpen voor comfort en
@@ -330,7 +329,9 @@ function Lessen() {
                 alt="Traditionele taijiquan kleding voor comfort en bewegingsvrijheid, geschikt voor de Chen-, Yang-, Wu- en Sun-stijl van Tai Chi"
               />
 
-              <h2 className="text-white mb-4 mt-4">Algemene informatie</h2>
+              <h2 className="text-white mb-4 mt-4">
+                Algemene informatie over Tai Chi
+              </h2>
               <p className="text-white-50">
                 Binnen taijiquan bestaan verschillende stijlen, zoals de Chen-,
                 Yang-, Wu- en Sun-stijl. De Yang-stijl wordt voornamelijk
