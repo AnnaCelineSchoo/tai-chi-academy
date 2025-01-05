@@ -34,7 +34,9 @@ function Home() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Welkom bij Tai Chi Academie</h2>
+              <h2 className="text-white mb-4">
+                Welkom bij de Tai Chi Academie in Apeldoorn
+              </h2>
               <p className="text-white-50">
                 Bij taijiquan Academie in Apeldoorn bevorderen we gezondheid,
                 innerlijke rust en vitaliteit door de oude kunst van taijiquan.

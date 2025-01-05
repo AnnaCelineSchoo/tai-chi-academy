@@ -9,9 +9,9 @@ function Homepage() {
       <Helmet>
         {/* Title Optimization */}
         <title>
-          Taijiquan Academy Apeldoorn - Tai Chi, Qi Gong, Push Hands,
-          Zelfverdediging en Meditatie Lessen en Workshops in Apeldoorn - volg
-          een gratis proefles! - Tai Chi Academie Apeldoorn
+          Tai Chi Academie Apeldoorn - Volg traditionele Lessen en Workshops in
+          Apeldoorn - schrijf je in voor een gratis proefles! - Taijiquan
+          Academy Apeldoorn
         </title>
 
         {/* Meta Description with More Context and Keywords */}
