@@ -28,7 +28,6 @@ function Agenda() {
             src={import.meta.env.VITE_AGENDA_URL}
             width="800"
             height="600"
-            framebBorder="0"
           ></iframe>
         </div>
       </div>
