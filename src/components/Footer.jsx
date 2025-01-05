@@ -6,7 +6,7 @@ function Footer() {
     <>
       <footer className="footer bg-black small text-center text-white-50">
         <div className="container px-4 px-lg-5">
-          Taijiquan Academy - Tai Chi Academie &copy;{currentYear}
+          Taijiquan Academy Apeldoorn &copy;{currentYear}
         </div>
         <div className="social d-flex justify-content-center">
           <Link

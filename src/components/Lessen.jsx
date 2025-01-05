@@ -33,9 +33,9 @@ function Lessen() {
         </div>
       </section>
 
-      <section class="projects-section bg-light" id="projects">
-        <div class="container px-4 px-lg-5">
-          <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+      <section className="projects-section bg-light" id="projects">
+        <div className="container px-4 px-lg-5">
+          <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
             <h2 className="text-center mb-5">Wat bieden wij?</h2>
             <div className="row text-center mb-5">
               <div className="col-md-6 mb-4">
@@ -77,20 +77,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/Tai Chi Ongewapend taijiquan vorm.jpg"
                 alt="Tai Chi, taijiquan ongewapend training met gecontroleerde, langzame bewegingen gericht op balans, innerlijke kracht en energie (Qi) beheersing"
               />
             </div>
-            <div class="col-lg-6">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Tai Chi Quan Ongewapend</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 className="text-white">Tai Chi Quan Ongewapend</h4>
+                    <p className="mb-0 text-white-50">
                       Tai Chi Ongewapend is de basis van veel taijiquan
                       oefeningen en vormt de essentie van de discipline. Hier
                       staan de langzame, gecontroleerde bewegingen centraal,
@@ -109,20 +109,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/Taijiquan Gewapend lessen Tai Chi Apeldoorn.jpg"
                 alt="Tai Chi gewapend training in Apeldoorn met traditionele wapens zoals zwaard, staf en speer, pudao, dao en waaier gericht op balans, kracht en innerlijke focus"
               />
             </div>
-            <div class="col-lg-6 order-lg-first">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Tai Chi Quan Gewapend</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6 order-lg-first">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 className="text-white">Tai Chi Quan Gewapend</h4>
+                    <p className="mb-0 text-white-50">
                       Tai Chi Gewapend voegt een extra dimensie toe aan de
                       beoefening van taijiquan door het gebruik van traditionele
                       wapens, zoals de zwaard, staf en speer. In deze gevorderde
@@ -144,20 +144,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/Push Hands tai chi taijiquan Apeldoorn.jpg"
                 alt="Push Hands training in Tai Chi bij Taijiquan Academy in Apeldoorn, gericht op balans, gevoeligheid en energiebeheer"
               />
             </div>
-            <div class="col-lg-6">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Pushands</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 className="text-white">Pushands</h4>
+                    <p className="mb-0 text-white-50">
                       Push Hands, of Tui Shou, is een essentiële oefening binnen
                       taijiquan die zich richt op het ontwikkelen van
                       gevoeligheid, balans en het effectief gebruiken van je
@@ -181,20 +181,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/Self defense zelfverdediging tai chi taijiquan Academy Apeldoorn.jpg"
                 alt="Zelfverdediging training, toepassing van Tai Chi bewegingen bij de Taijiquan Academy Apeldoorn, gericht op balans, interne kracht en het neutraliseren van aanvallen"
               />
             </div>
-            <div class="col-lg-6 order-lg-first">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Zelfverdediging</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6 order-lg-first">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 className="text-white">Zelfverdediging</h4>
+                    <p className="mb-0 text-white-50">
                       Tai Chi biedt niet alleen fysieke kracht en flexibiliteit,
                       maar ook waardevolle technieken voor zelfverdediging. De
                       langzame, gecontroleerde bewegingen van taijiquan kunnen
@@ -218,20 +218,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/Qi gong taijiquan Academy Apeldoorn.jpg"
                 alt="Qi Gong oefeningen voor balans en gezondheid, gericht op het bevorderen van levensenergie (Qi) door ademhaling, beweging en meditatie bij taijiquan Academy in Apeldoorn - tai chi academie Apeldoorn"
               />
             </div>
-            <div class="col-lg-6">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Qi Gong</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-left">
+                    <h4 className="text-white">Qi Gong</h4>
+                    <p className="mb-0 text-white-50">
                       Qi Gong is een oude Chinese praktijk die zich richt op het
                       bevorderen van de stroming van levensenergie (Qi) door
                       middel van zachte bewegingen, ademhalingsoefeningen en
@@ -254,20 +254,20 @@ function Lessen() {
               </div>
             </div>
           </div>
-          <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6">
+          <div className="row gx-0 justify-content-center">
+            <div className="col-lg-6">
               <img
-                class="img-fluid-lessen"
+                className="img-fluid-lessen"
                 src="images/lessen/mediatie tai chi taijiquan academy Apeldoorn.jpg"
                 alt="Meditatie sessie tijdens Tai Chi lessen bij Taijiquan Academy Apeldoorn, gericht op het bereiken van innerlijke rust, balans en mentale helderheid"
               />
             </div>
-            <div class="col-lg-6 order-lg-first">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                    <h4 class="text-white">Meditatie</h4>
-                    <p class="mb-0 text-white-50">
+            <div className="col-lg-6 order-lg-first">
+              <div className="bg-black text-center h-100 project">
+                <div className="d-flex h-100">
+                  <div className="project-text w-100 my-auto text-center text-lg-right">
+                    <h4 className="text-white">Meditatie</h4>
+                    <p className="mb-0 text-white-50">
                       Meditatie is een essentieel onderdeel van taijiquan en Qi
                       Gong, waarbij de focus ligt op het bereiken van innerlijke
                       rust, helderheid en balans. Door middel van verschillende
