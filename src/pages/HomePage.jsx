@@ -8,18 +8,22 @@ function Homepage() {
     <HelmetProvider>
       <Helmet>
         {/* Title Optimization */}
-        <title>Taijiquan Academy - Lessen en Workshops in Apeldoorn</title>
+        <title>
+          Tai Chi Academie Apeldoorn - Volg traditionele Lessen en Workshops in
+          Apeldoorn - schrijf je in voor een gratis proefles! - Taijiquan
+          Academy Apeldoorn
+        </title>
 
         {/* Meta Description with More Context and Keywords */}
         <meta
           name="description"
-          content="Taijiquan Academy biedt professionele Taijiquan lessen en workshops in Apeldoorn. Leer de kunst van Taijiquan met ervaren instructeurs in een rustgevende omgeving."
+          content="Taijiquan Academy in Apeldoorn biedt professionele Taijiquan (Tai Chi), Qi Gong, Push Hands, Zelfverdediging en Meditatie lessen, workshops en privélessen. Verbeter je gezondheid, focus en energie met ervaren instructeurs in een rustige en inspirerende omgeving."
         />
 
         {/* Meta Keywords (secondary, less important now but still useful) */}
         <meta
           name="keywords"
-          content="Taijiquan, Taijiquan lessen, Taijiquan workshops, Apeldoorn, Taijiquan Academy, Tai Chi, gezondheid, vechtsport"
+          content="Tai Chi Apeldoorn, Taijiquan Apeldoorn, Tai Chi lessen, Taijiquan workshops, Qi Gong training, Push Hands lessen, Zelfverdediging Apeldoorn, meditatie cursussen, Chinese martial arts, traditionele vechtkunst, gezondheid verbeteren, balans oefeningen, stressmanagement, innerlijke rust, flexibiliteit vergroten, Tai Chi voor beginners, gevorderde Tai Chi, workshops en evenementen Apeldoorn"
         />
 
         {/* Canonical Link for SEO */}
@@ -28,11 +32,13 @@ function Homepage() {
         {/* Open Graph Meta Tags for Social Media Sharing */}
         <meta
           property="og:title"
-          content="Taijiquan Academy - Lessen en Workshops in Apeldoorn"
+          content="Taijiquan Academy Apeldoorn - Tai Chi, Qi Gong, Push Hands,
+          Zelfverdediging en Meditatie Lessen en Workshops in Apeldoorn - volg
+          een gratis proefles! - Tai Chi Academie Apeldoorn"
         />
         <meta
           property="og:description"
-          content="Leer Taijiquan bij Taijiquan Academy in Apeldoorn. Professionele lessen en workshops voor alle niveaus."
+          content="Leer Taijiquan (Tai Chi), Qi Gong, Push Hands, Zelfverdediging en Meditatie bij Taijiquan Academy in Apeldoorn. Professionele lessen, privélessen en workshops voor alle niveaus."
         />
         <meta property="og:url" content="https://www.taijiquanacademy.nl/" />
         <meta property="og:type" content="website" />
@@ -42,7 +48,7 @@ function Homepage() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Taijiquan Academy",
+            name: "Taijiquan Academy- Tai Chi Academie",
             url: "https://www.taijiquanacademy.nl/",
             logo: "https://www.taijiquanacademy.nl/images/logos/Taiji-logo-blauw-zwart.png",
             sameAs: [
@@ -53,7 +59,7 @@ function Homepage() {
             contactPoint: {
               "@type": "ContactPoint",
               contactType: "Customer Service",
-              telephone: "+31-123-456-789",
+              telephone: "",
               areaServed: "NL",
               availableLanguage: "Dutch",
             },

@@ -16,7 +16,7 @@ function Home() {
         <div className="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
           <div className="d-flex justify-content-center">
             <div className="text-center">
-              <h1 className="mx-auto my-0 text-uppercase">Taijiquan Academy</h1>
+              <h1 className="mx-auto my-0 text-uppercase">Tai Chi Academie</h1>
               <h2 className="text-white-50 mx-auto mt-2 mb-5">
                 Empowering Mind, Body, and Spirit Through the Art of taijiquan
               </h2>
@@ -34,19 +34,21 @@ function Home() {
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-8">
-              <h2 className="text-white mb-4">Welkom bij taijiquan Academy</h2>
+              <h2 className="text-white mb-4">
+                Welkom bij de Tai Chi Academie in Apeldoorn
+              </h2>
               <p className="text-white-50">
-                Bij taijiquan Academie bevorderen we gezondheid, innerlijke rust
-                en vitaliteit door de oude kunst van taijiquan. Of je nu begint
-                om balans te vinden of je praktijk wilt verdiepen, wij bieden
-                een gastvrije ruimte voor iedereen. taijiquan combineert zachte
-                bewegingen, ademhaling en mindfulness om stress te verminderen,
-                de gezondheid te verbeteren en de energie van je lichaam te
-                versterken. Onze ervaren instructeur begeleid je in zowel
-                beginners- als gevorderdenlessen. Sluit je aan bij onze
-                holistische gemeenschap en ontdek de diepere filosofie van Tai
-                Chi. Begin je reis naar rust en energie bij de taijiquan
-                Academie.
+                Bij taijiquan Academie in Apeldoorn bevorderen we gezondheid,
+                innerlijke rust en vitaliteit door de oude kunst van taijiquan.
+                Of je nu begint om balans te vinden of je praktijk wilt
+                verdiepen, wij bieden een gastvrije ruimte voor iedereen.
+                taijiquan combineert zachte bewegingen, ademhaling en
+                mindfulness om stress te verminderen, de gezondheid te
+                verbeteren en de energie van je lichaam te versterken. Onze
+                ervaren instructeur begeleid je in zowel beginners- als
+                gevorderdenlessen. Sluit je aan bij onze holistische gemeenschap
+                en ontdek de diepere filosofie van Tai Chi. Begin je reis naar
+                rust en energie bij de taijiquan Academie in Apeldoorn.
               </p>
             </div>
           </div>
@@ -54,14 +56,14 @@ function Home() {
             <img
               className="img-fluid"
               src="images/logos/Taiji-logo-blauw-zwart.png"
-              alt="meditating monk"
+              alt="Tai chi academie Apeldoorn logo - Taijiquan Academy Apeldoorn logo"
             />
           </div>
         </div>
         <div className="container my-5 ">
           {/* Embedded YouTube Video */}
           <div className="text-center mb-5">
-            <h2 className="text-white">Ervaar taijiquan Academy</h2>
+            <h2 className="text-white">Ervaar Tai Chi Academie</h2>
             <div className="video-container">
               <iframe
                 src="https://www.youtube.com/embed/3pNW8sTTxhI?si=V1CgKG0JM-S2hcXb"
@@ -80,7 +82,7 @@ function Home() {
               <img
                 className="img-fluid mb-3 mb-lg-0"
                 src="images/D.Wolff_.jpg"
-                alt="..."
+                alt="Tai chi academie Apeldoorn instructeur - Taijiquan Academy Apeldoorn instructeur"
               />
             </div>
             <div className="col-xl-4 col-lg-5">
@@ -89,7 +91,7 @@ function Home() {
                 <p className="text-black-50 mb-0">
                   Jarenlang heb ik met plezier verschillende vechtsporten
                   beoefend. Tegenwoordig richt ik mij met passie op het
-                  verspreiden van taijiquan in het midden van Nederland. Ik
+                  verspreiden van tai chi in het midden van Nederland. Ik
                   beschouw taijiquan als een perfecte balans tussen kracht en
                   elegantie. Het verbetert zowel het fysieke als het mentale
                   welzijn door langzame, gecontroleerde bewegingen die de geest

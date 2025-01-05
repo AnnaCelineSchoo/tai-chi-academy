@@ -6,6 +6,7 @@ function Contact() {
   const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
   const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_YOUR_PUBLIC_KEY;
+  const email = import.meta.env.VITE_EMAIL_ADDRESS;
   console.log("Service ID:", serviceId);
   console.log("Template ID:", templateId);
   console.log("Public Key:", publicKey);
@@ -58,7 +59,8 @@ function Contact() {
             <div className="col-md-10 col-lg-8 text-center">
               <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
               <h2 className="text-white mb-5">
-                Schrijf je in voor je eerste gratis proefles!
+                Schrijf je in voor je eerste gratis Tai Chi proefles bij
+                Tiajiquan Academy in Apeldoorn!
               </h2>
 
               <form
@@ -148,15 +150,16 @@ function Contact() {
           <h2 className="text-center mb-4">Onze Locatie</h2>
 
           <p className="text-black-50">
-            U kunt het pad inlopen bij het blauwe bord. Achter dit bord bevindt
-            zich de gymzaal waar de taijiquan lessen plaatsvindene. De foto
-            hieronder laat dit zien.
+            De locatie voor de tai chi lessen is de sporthal bij de Mariannalaan
+            19a, 7316 DS Apeldoorn. U kunt het pad inlopen bij het blauwe bord.
+            Achter dit bord bevindt zich de gymzaal waar de tai chi lessen
+            plaatsvindene. De foto hieronder laat dit zien.
           </p>
           <div className="map-container">
             <img
               className="contact-location-img mb-5"
-              src="https://shaolin-vechtkunst.nl/wp-content/uploads/2013/08/Schermafbeelding-2014-09-30-om-20.59.25.png"
-              alt=""
+              src="images/lessen/locatie tai chi academie taijiquan academy.png"
+              alt="locatie tai chi academie taijiquan academy Mariannalaan 19a, 7316 DS Apeldoorn"
             />
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9776.66198371177!2d5.958902!3d52.222211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4a4945fc5402545!2sVechtsport%3A+Shaolin+Kung+Fu+Apeldoorn!5e0!3m2!1snl!2snl!4v1412235104744"
@@ -181,7 +184,7 @@ function Contact() {
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Address</h4>
+                  <h4 class="text-uppercase m-0">Adres</h4>
                   <hr class="my-4 mx-auto" />
                   <div class="small text-black-50">
                     Mariannalaan 19a, 7316 DS Apeldoorn
@@ -195,8 +198,10 @@ function Contact() {
                   <i class="fas fa-envelope text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Email</h4>
                   <hr class="my-4 mx-auto" />
-                  <div class="small text-black-50">
-                    <Link href="#!">addyoutemail@yourdomain.com</Link>
+                  <div className="small text-black-50">
+                    <a href={`mailto:${email}`} id="email-link">
+                      {email}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -205,9 +210,9 @@ function Contact() {
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">Phone</h4>
+                  <h4 class="text-uppercase m-0">Telefoon</h4>
                   <hr class="my-4 mx-auto" />
-                  <div class="small text-black-50">add your phone</div>
+                  <div class="small text-black-50">...</div>
                 </div>
               </div>
             </div>

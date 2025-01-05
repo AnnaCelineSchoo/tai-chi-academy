@@ -6,7 +6,7 @@ function Footer() {
     <>
       <footer className="footer bg-black small text-center text-white-50">
         <div className="container px-4 px-lg-5">
-          Taijiquan Academy &copy;{currentYear}
+          Taijiquan Academy - Tai Chi Academie &copy;{currentYear}
         </div>
         <div className="social d-flex justify-content-center">
           <Link
@@ -38,8 +38,8 @@ function Footer() {
         <div className="image-wrapper-footer">
           <img
             className="img-fluid"
-            src="images/logos/Taiji-logo-rood.png"
-            alt="meditating monk"
+            src="/images/logos/Taiji-logo-rood.png"
+            alt="Tai chi academie Apeldoorn logo - Taijiquan Academy Apeldoorn logo"
           />
         </div>
       </footer>

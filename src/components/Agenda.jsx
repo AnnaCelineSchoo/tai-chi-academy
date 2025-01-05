@@ -9,10 +9,10 @@ function Agenda() {
               <h2 className="text-white mb-4">Agenda</h2>
               <p className="text-white-50">
                 Bekijk hieronder de actuele trainingsagenda met data en tijden
-                van onze lessen en workshops, georganiseerd door Taijiquan
-                Academy. Onze reguliere lessen vinden meestal plaats op
-                maandagavond van 19:00 tot 21:00. Raadpleeg de agenda voor
-                specifieke details en eventuele wijzigingen.
+                van onze tai chi lessen en workshops, georganiseerd door
+                Taijiquan Academy in Apeldoorn. Onze reguliere lessen vinden
+                meestal plaats op maandagavond van 19:00 tot 21:00. Raadpleeg de
+                agenda voor specifieke details en eventuele wijzigingen.
               </p>
               {/* <Link className="btn btn-primary" to="#about">
                 Ervaringen

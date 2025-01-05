@@ -10,7 +10,7 @@ function Tarieven() {
               <h2 className="text-white mb-4">Tarieven</h2>
               <p className="text-white-50">
                 Ontgrendel je potentieel met onze op maat gemaakte
-                trainingsplannen. Waar je ook staat in je fitnessreis, wij
+                trainingsplannen. Waar je ook staat in je gozondheidssreis, wij
                 hebben iets voor jou. Van losse lessen tot langdurige trajecten,
                 onze transparante prijzen zorgen voor flexibiliteit en waarde
                 voor iedereen. Doe met ons mee en ervaar deskundige coaching,
