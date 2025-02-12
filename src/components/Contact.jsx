@@ -3,13 +3,10 @@ import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 
 function Contact() {
-  const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
-  const templateId = import.meta.env.VITE_YOUR_TEMPLATE_ID;
-  const publicKey = import.meta.env.VITE_YOUR_PUBLIC_KEY;
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
   const email = import.meta.env.VITE_EMAIL_ADDRESS;
-  console.log("Service ID:", serviceId);
-  console.log("Template ID:", templateId);
-  console.log("Public Key:", publicKey);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
